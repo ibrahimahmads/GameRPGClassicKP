@@ -1112,6 +1112,7 @@ ScriptedImporter:
     cells:
     - name: Warrior_Yellow_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 56
@@ -1120,6 +1121,7 @@ ScriptedImporter:
       spriteId: 169f608afc3bdd34eb739ba57ed211c5
     - name: Warrior_Yellow_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 56
@@ -1128,6 +1130,7 @@ ScriptedImporter:
       spriteId: 4e2d6a00ba42c2146b5656d8c451f12c
     - name: Warrior_Yellow_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 56
@@ -1136,6 +1139,7 @@ ScriptedImporter:
       spriteId: 83e232a863048eb4dada22ec64e70642
     - name: Warrior_Yellow_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 62
         y: 56
@@ -1144,6 +1148,7 @@ ScriptedImporter:
       spriteId: 65dba14b2affa974d85b0f1010eeef8d
     - name: Warrior_Yellow_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 62
         y: 56
@@ -1152,6 +1157,7 @@ ScriptedImporter:
       spriteId: de30b721a9ee9474498c03952fc84cb1
     - name: Warrior_Yellow_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 56
@@ -1160,6 +1166,7 @@ ScriptedImporter:
       spriteId: 8ccfa06c3812abb49be017acb813f099
     - name: Warrior_Yellow_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 56
@@ -1168,6 +1175,7 @@ ScriptedImporter:
       spriteId: c9ee8028318c21840b6dc9d10815fa27
     - name: Warrior_Yellow_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 71
         y: 56
@@ -1176,6 +1184,7 @@ ScriptedImporter:
       spriteId: e48281e7b24ab6848858073e1228c07d
     - name: Warrior_Yellow_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 68
         y: 56
@@ -1184,6 +1193,7 @@ ScriptedImporter:
       spriteId: 1be9177f997c0b14fb9c08417486a6d6
     - name: Warrior_Yellow_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 56
@@ -1192,6 +1202,7 @@ ScriptedImporter:
       spriteId: f6c03a8a20858d747a979f669d3fd6f8
     - name: Warrior_Yellow_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 54
         y: 56
@@ -1200,6 +1211,7 @@ ScriptedImporter:
       spriteId: 4844174021985a342bc5388fe6749e8c
     - name: Warrior_Yellow_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 57
         y: 56
@@ -1208,6 +1220,7 @@ ScriptedImporter:
       spriteId: 305649deb7444b74db49e2b588f4d79d
     - name: Warrior_Yellow_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 56
@@ -1216,6 +1229,7 @@ ScriptedImporter:
       spriteId: 0e4bbafb9f87a7a4082edc1c1a6f39f6
     - name: Warrior_Yellow_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 58
         y: 56
@@ -1224,6 +1238,7 @@ ScriptedImporter:
       spriteId: 46d4978f1b07e0542af9e547d1a82aef
     - name: Warrior_Yellow_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 57
         y: 56
@@ -1232,6 +1247,7 @@ ScriptedImporter:
       spriteId: cc6bbed7037fde145bcdaf9bb27c140b
     - name: Warrior_Yellow_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 57
         y: 56
@@ -1240,6 +1256,7 @@ ScriptedImporter:
       spriteId: 2684609d80f128040a1ab9d6d8f65c44
     - name: Warrior_Yellow_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 76
         y: 55
@@ -1248,6 +1265,7 @@ ScriptedImporter:
       spriteId: 44d79ef20442a1040bb5d2f53fa29b2d
     - name: Warrior_Yellow_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 74
         y: 53
@@ -1256,6 +1274,7 @@ ScriptedImporter:
       spriteId: 789083da3f9eb044aa497c119f44e99a
     - name: Warrior_Yellow_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 56
@@ -1264,6 +1283,7 @@ ScriptedImporter:
       spriteId: 6b235d78979b194409216d914dea7bec
     - name: Warrior_Yellow_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 34
         y: 56
@@ -1272,6 +1292,7 @@ ScriptedImporter:
       spriteId: 836c8bad4a8d392499b45b3f9d9f56b6
     - name: Warrior_Yellow_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 56
@@ -1280,6 +1301,7 @@ ScriptedImporter:
       spriteId: 04f31e0930226f345972e1ed1b2f605a
     - name: Warrior_Yellow_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 56
@@ -1288,6 +1310,7 @@ ScriptedImporter:
       spriteId: 57defca563232714fbbbc1967512965d
     - name: Warrior_Yellow_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 58
         y: 46
@@ -1296,6 +1319,7 @@ ScriptedImporter:
       spriteId: f0bd2e274799bd44a899e87855afaabc
     - name: Warrior_Yellow_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 56
@@ -1304,6 +1328,7 @@ ScriptedImporter:
       spriteId: 38df6ed34a4850946973040830c6b441
     - name: Warrior_Yellow_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 62
         y: 56
@@ -1312,6 +1337,7 @@ ScriptedImporter:
       spriteId: 3547a5c4cfefe48458dab9798c20bde7
     - name: Warrior_Yellow_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 58
         y: 56
@@ -1320,6 +1346,7 @@ ScriptedImporter:
       spriteId: db76f03f8ffa03f46b297daec3b29604
     - name: Warrior_Yellow_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 56
@@ -1328,6 +1355,7 @@ ScriptedImporter:
       spriteId: 91da0ff3739aab14590ba743f37a2693
     - name: Warrior_Yellow_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 56
@@ -1336,6 +1364,7 @@ ScriptedImporter:
       spriteId: dc65be2415bf08b448ef662ce0411b71
     - name: Warrior_Yellow_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 46
         y: 13
@@ -1344,6 +1373,7 @@ ScriptedImporter:
       spriteId: ad683a3e949674d4e90351f1c8d5b374
     - name: Warrior_Yellow_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 25
@@ -1352,6 +1382,7 @@ ScriptedImporter:
       spriteId: 6322ff7cad1ee9041a883fc2e2e297a1
     - name: Warrior_Yellow_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 54
         y: 52
@@ -1360,6 +1391,7 @@ ScriptedImporter:
       spriteId: 2d2aa437954d1624786beb9c86133073
     - name: Warrior_Yellow_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 36
         y: 56
@@ -1368,6 +1400,7 @@ ScriptedImporter:
       spriteId: 7a5ec917b06c5cd4b89de94ae05af887
     - name: Warrior_Yellow_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 56
@@ -1376,6 +1409,7 @@ ScriptedImporter:
       spriteId: 007981832986bf4438ca949e9ff9292b
     - name: Warrior_Yellow_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 56
@@ -1384,6 +1418,7 @@ ScriptedImporter:
       spriteId: 72fa681a72bc52e40be6331387285c6d
     - name: Warrior_Yellow_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 28
@@ -1392,6 +1427,7 @@ ScriptedImporter:
       spriteId: ce624f5d0e9c6ab4a8cc0a33b1b6fa06
     - name: Warrior_Yellow_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 68
         y: 29
@@ -1400,6 +1436,7 @@ ScriptedImporter:
       spriteId: e088ba74b085b4b4c91cc0c1d3b0b703
     - name: Warrior_Yellow_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 62
         y: 56
@@ -1408,6 +1445,7 @@ ScriptedImporter:
       spriteId: 2a7fbff37e0c6df4d81c907224d03dc9
     - name: Warrior_Yellow_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 56
@@ -1416,6 +1454,7 @@ ScriptedImporter:
       spriteId: 4fdb78bd51bfc8c41a4856e14c51808c
     - name: Warrior_Yellow_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 56
@@ -1424,6 +1463,7 @@ ScriptedImporter:
       spriteId: 1ed79d756f0360d4eacec5399f3ad5dd
     - name: Warrior_Yellow_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 56
@@ -1432,6 +1472,7 @@ ScriptedImporter:
       spriteId: 82184012603304048b3f37e7056cf3c1
     - name: Warrior_Yellow_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 28
         y: 57
@@ -1440,6 +1481,7 @@ ScriptedImporter:
       spriteId: 7eb36576bfbbfb84895052e122fbadf8
     - name: Warrior_Yellow_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 70
         y: 57
@@ -1448,6 +1490,7 @@ ScriptedImporter:
       spriteId: 7456710cd4c909841ad39620f3724fc2
     - name: Warrior_Yellow_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 76
         y: 56
@@ -1456,6 +1499,7 @@ ScriptedImporter:
       spriteId: ad0af3099627f26418f82d59a746e3f5
     - name: Warrior_Yellow_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 76
         y: 56
@@ -1464,6 +1508,7 @@ ScriptedImporter:
       spriteId: 42488e54cd7cc344bb8d9ee66ff7e078
     - name: Warrior_Yellow_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 76
         y: 56
@@ -1472,6 +1517,7 @@ ScriptedImporter:
       spriteId: 56da40216328c1a4082e6d097d92881b
     - name: Warrior_Yellow_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 76
         y: 56
@@ -1480,6 +1526,7 @@ ScriptedImporter:
       spriteId: 34d9580a945210642ab0a9c33822f8bd
     - name: Warrior_Yellow_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 57
@@ -1488,6 +1535,7 @@ ScriptedImporter:
       spriteId: e7e01ee6cc24e70478ad09705c0e1e26
     - name: Warrior_Yellow_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 57
@@ -1496,6 +1544,7 @@ ScriptedImporter:
       spriteId: 9a78fa63d0379e348b5010a015522448
     - name: Warrior_Yellow_Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 56

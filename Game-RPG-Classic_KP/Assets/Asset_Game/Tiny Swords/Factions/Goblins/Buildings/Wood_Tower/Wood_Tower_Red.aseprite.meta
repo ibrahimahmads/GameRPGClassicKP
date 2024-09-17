@@ -232,6 +232,7 @@ ScriptedImporter:
     cells:
     - name: Wood_Tower_Red_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 21
@@ -240,6 +241,7 @@ ScriptedImporter:
       spriteId: ae299b702d20f8a4fa32e1937630d793
     - name: Wood_Tower_Red_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 21
@@ -248,6 +250,7 @@ ScriptedImporter:
       spriteId: a9c9ca359328d95478ed6b63dccc3051
     - name: Wood_Tower_Red_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 21
@@ -256,6 +259,7 @@ ScriptedImporter:
       spriteId: 3b5f9f50f9b3f724b83409a59ccd1b39
     - name: Wood_Tower_Red_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 21
@@ -264,6 +268,7 @@ ScriptedImporter:
       spriteId: 020f4c0dcd8d21e4f9512356feaeb018
     - name: Wood_Tower_Red_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 21

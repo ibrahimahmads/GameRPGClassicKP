@@ -552,6 +552,7 @@ ScriptedImporter:
     cells:
     - name: Barrel_Yellow_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -560,6 +561,7 @@ ScriptedImporter:
       spriteId: cd3af793ccfaf1148b8570c4b4f7681d
     - name: Barrel_Yellow_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -568,6 +570,7 @@ ScriptedImporter:
       spriteId: 52bda24215d684344abbf187ad4f1ec9
     - name: Barrel_Yellow_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -576,6 +579,7 @@ ScriptedImporter:
       spriteId: b60f981954083a946b5fc14bc67c69bc
     - name: Barrel_Yellow_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 25
@@ -584,6 +588,7 @@ ScriptedImporter:
       spriteId: 983c27269141dab4daa94fa7012e69ed
     - name: Barrel_Yellow_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 25
@@ -592,6 +597,7 @@ ScriptedImporter:
       spriteId: f5b53e5be0678c64bae91b15148cdd70
     - name: Barrel_Yellow_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 26
@@ -600,6 +606,7 @@ ScriptedImporter:
       spriteId: 6a9f0d3fbfd930145ac263747e97f992
     - name: Barrel_Yellow_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -608,6 +615,7 @@ ScriptedImporter:
       spriteId: 27aa8b82bba05604baef7f5c7fb0471d
     - name: Barrel_Yellow_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -616,6 +624,7 @@ ScriptedImporter:
       spriteId: 011aa7607312af844814633ff540bbd2
     - name: Barrel_Yellow_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -624,6 +633,7 @@ ScriptedImporter:
       spriteId: 8d2dd3d18532f7e4c887364788c8c806
     - name: Barrel_Yellow_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 26
@@ -632,6 +642,7 @@ ScriptedImporter:
       spriteId: 38dbc1e4c8f2d9d4bb9f87448ac2e4de
     - name: Barrel_Yellow_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 25
@@ -640,6 +651,7 @@ ScriptedImporter:
       spriteId: c721eb35a4c7d2d458a50b810e1407e7
     - name: Barrel_Yellow_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 25
@@ -648,6 +660,7 @@ ScriptedImporter:
       spriteId: ecfee96500cba2c4ca3fd4f3d9821bbb
     - name: Barrel_Yellow_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -656,6 +669,7 @@ ScriptedImporter:
       spriteId: 8913a7e84e779c241a1cc86e9edca335
     - name: Barrel_Yellow_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 29
@@ -664,6 +678,7 @@ ScriptedImporter:
       spriteId: 59dab20e64cac6944a034540a576fd62
     - name: Barrel_Yellow_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -672,6 +687,7 @@ ScriptedImporter:
       spriteId: 6555889820ff01d439d9ca24472b3b40
     - name: Barrel_Yellow_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 26
@@ -680,6 +696,7 @@ ScriptedImporter:
       spriteId: f3db7bcd21d803e49a1107c5521152b2
     - name: Barrel_Yellow_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 25
@@ -688,6 +705,7 @@ ScriptedImporter:
       spriteId: ed322e79eea1a864c8dcdc9cad60a0c8
     - name: Barrel_Yellow_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 25
@@ -696,6 +714,7 @@ ScriptedImporter:
       spriteId: 985dce5c0fbc4e641a76a452faee4a0f
     - name: Barrel_Yellow_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -704,6 +723,7 @@ ScriptedImporter:
       spriteId: 3de06231da42bff49b1cc8471cfcf4e5
     - name: Barrel_Yellow_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 29
@@ -712,6 +732,7 @@ ScriptedImporter:
       spriteId: 6d768d338803e7f4a93e1900c630ee2e
     - name: Barrel_Yellow_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
