@@ -292,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: Foam_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 55
@@ -300,6 +301,7 @@ ScriptedImporter:
       spriteId: d9082da931552b14899fd6faeb682e89
     - name: Foam_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 55
@@ -308,6 +310,7 @@ ScriptedImporter:
       spriteId: 9b1f0414b1a01b740bc610d4ec959e7c
     - name: Foam_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 55
@@ -316,6 +319,7 @@ ScriptedImporter:
       spriteId: cfe6a99226170ea439964871676f6e5c
     - name: Foam_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 55
@@ -324,6 +328,7 @@ ScriptedImporter:
       spriteId: 1c64e3b4fd78e244ab73097af2f844c6
     - name: Foam_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 55
@@ -332,6 +337,7 @@ ScriptedImporter:
       spriteId: f77428cddbf14c84fa51e417e16a8efc
     - name: Foam_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 54
         y: 53
@@ -340,6 +346,7 @@ ScriptedImporter:
       spriteId: a51055b5e2144a749bc65c4f25d08114
     - name: Foam_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 53
@@ -348,6 +355,7 @@ ScriptedImporter:
       spriteId: cb6cf1af8b1208d42a23bf8a6ddd3326
     - name: Foam_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 54
         y: 54

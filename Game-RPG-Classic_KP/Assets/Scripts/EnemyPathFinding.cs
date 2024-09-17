@@ -17,11 +17,20 @@ public class EnemyPathFinding : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveDir *(moveSpeed * Time.fixedDeltaTime));
+        if (moveDir != Vector2.zero)
+        {
+            rb.MovePosition(rb.position + moveDir * (moveSpeed * Time.fixedDeltaTime));
+        }
     }
 
     public void MoveTo(Vector2 targetPosition)
     {
         moveDir = targetPosition;
+    }
+
+    public void StopMovement()
+    {
+        // Menghentikan pergerakan musuh
+        moveDir = Vector2.zero;
     }
 }

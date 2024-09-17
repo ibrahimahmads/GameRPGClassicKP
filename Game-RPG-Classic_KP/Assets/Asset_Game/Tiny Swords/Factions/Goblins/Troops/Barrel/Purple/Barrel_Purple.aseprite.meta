@@ -552,6 +552,7 @@ ScriptedImporter:
     cells:
     - name: Barrel_Purple_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -560,6 +561,7 @@ ScriptedImporter:
       spriteId: 17868294731bff34ebb86f840a13fa39
     - name: Barrel_Purple_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -568,6 +570,7 @@ ScriptedImporter:
       spriteId: 67ea0b45c2e04024eab543768dbaf78e
     - name: Barrel_Purple_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -576,6 +579,7 @@ ScriptedImporter:
       spriteId: ed58b64a99759e9499321705cd721eac
     - name: Barrel_Purple_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 25
@@ -584,6 +588,7 @@ ScriptedImporter:
       spriteId: 68448d9cccbc479438f372d5096c7912
     - name: Barrel_Purple_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 25
@@ -592,6 +597,7 @@ ScriptedImporter:
       spriteId: 8f6aa62cee6c3b84495d321a8c5d212d
     - name: Barrel_Purple_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 26
@@ -600,6 +606,7 @@ ScriptedImporter:
       spriteId: 9f1f9488980d8004c9a17568f327b6bd
     - name: Barrel_Purple_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -608,6 +615,7 @@ ScriptedImporter:
       spriteId: 356282d74e36b064f8836f7442cb45bd
     - name: Barrel_Purple_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -616,6 +624,7 @@ ScriptedImporter:
       spriteId: 9600f769ac1f9694a86c0f4ce98fb654
     - name: Barrel_Purple_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -624,6 +633,7 @@ ScriptedImporter:
       spriteId: efc3e8a067101f343a2e7a34a938d870
     - name: Barrel_Purple_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 26
@@ -632,6 +642,7 @@ ScriptedImporter:
       spriteId: 36713aae1e8bf714dab539b6febce7d3
     - name: Barrel_Purple_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 25
@@ -640,6 +651,7 @@ ScriptedImporter:
       spriteId: 022db3fd256d8874a977d170db739c24
     - name: Barrel_Purple_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 25
@@ -648,6 +660,7 @@ ScriptedImporter:
       spriteId: 54865318db026c845943704bb9f1e754
     - name: Barrel_Purple_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -656,6 +669,7 @@ ScriptedImporter:
       spriteId: a6b3ff4beb2245c4a9deffc999db3f61
     - name: Barrel_Purple_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 29
@@ -664,6 +678,7 @@ ScriptedImporter:
       spriteId: cec36432617729e4984fe7f01b36510b
     - name: Barrel_Purple_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -672,6 +687,7 @@ ScriptedImporter:
       spriteId: 23b3214743e7e2d498845a6fa778e77c
     - name: Barrel_Purple_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 26
@@ -680,6 +696,7 @@ ScriptedImporter:
       spriteId: c9f85171f277bf94db0ca04c8b6ea58e
     - name: Barrel_Purple_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 25
@@ -688,6 +705,7 @@ ScriptedImporter:
       spriteId: 3bcd251121d2ee746a8efb0b419681cf
     - name: Barrel_Purple_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 25
@@ -696,6 +714,7 @@ ScriptedImporter:
       spriteId: bbd499e56fdcb904898c214256d338a2
     - name: Barrel_Purple_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -704,6 +723,7 @@ ScriptedImporter:
       spriteId: 0842bb78001a6ed49b378718b9e0321e
     - name: Barrel_Purple_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 29
@@ -712,6 +732,7 @@ ScriptedImporter:
       spriteId: 2aec5967c6ff52a41a56ba29e012b1f0
     - name: Barrel_Purple_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
