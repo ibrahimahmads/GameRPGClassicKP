@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 1788604171423026224}
   - component: {fileID: 6872582336507591784}
   - component: {fileID: 8232869357361174395}
-  m_Layer: 0
+  - component: {fileID: 5093283389667848660}
+  m_Layer: 6
   m_Name: Blue Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,3 +198,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc1e78fea903e9408bf062960374998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5093283389667848660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074313589903712310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2d69f625be5eb43848ba85edd17263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
