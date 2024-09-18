@@ -3998,12 +3998,12 @@ TextureImporter:
       name: Buff Warlord_213
       rect:
         serializedVersion: 2
-        x: 640
+        x: 628
         y: 2176
-        width: 64
+        width: 76
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.58522034, y: 0.44939804}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4019,12 +4019,12 @@ TextureImporter:
       name: Buff Warlord_215
       rect:
         serializedVersion: 2
-        x: 832
+        x: 819
         y: 2176
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 84
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5385524, y: 0.39205498}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4042,10 +4042,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1024
         y: 2176
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 99
+        height: 67
+      alignment: 9
+      pivot: {x: 0.3364455, y: 0.43555418}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4061,12 +4061,12 @@ TextureImporter:
       name: Buff Warlord_226
       rect:
         serializedVersion: 2
-        x: 64
+        x: 51
         y: 1984
-        width: 64
+        width: 77
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5841139, y: 0.41566658}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4086,8 +4086,8 @@ TextureImporter:
         y: 1984
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.46626663, y: 0.41566658}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4128,8 +4128,8 @@ TextureImporter:
         y: 1984
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.43253326, y: 0.41566658}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4145,12 +4145,12 @@ TextureImporter:
       name: Buff Warlord_231
       rect:
         serializedVersion: 2
-        x: 832
+        x: 784
         y: 1984
-        width: 64
+        width: 112
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7023986, y: 0.41566658}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4166,12 +4166,12 @@ TextureImporter:
       name: Buff Warlord_233
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 975
         y: 1984
-        width: 64
+        width: 113
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.6910552, y: 0.41566658}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4250,12 +4250,12 @@ TextureImporter:
       name: Buff Warlord_247
       rect:
         serializedVersion: 2
-        x: 640
+        x: 631
         y: 1792
-        width: 64
+        width: 74
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5583496, y: 0.46626663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4271,12 +4271,12 @@ TextureImporter:
       name: Buff Warlord_249
       rect:
         serializedVersion: 2
-        x: 832
-        y: 1792
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 820
+        y: 1774
+        width: 85
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5634981, y: 0.57898545}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4293,11 +4293,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1024
-        y: 1792
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 1775
+        width: 98
+        height: 81
+      alignment: 9
+      pivot: {x: 0.34579158, y: 0.5666338}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4313,12 +4313,12 @@ TextureImporter:
       name: Buff Warlord_260
       rect:
         serializedVersion: 2
-        x: 64
+        x: 75
         y: 1600
-        width: 64
+        width: 65
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.3007147, y: 0.41566658}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4338,8 +4338,8 @@ TextureImporter:
         y: 1600
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41566658}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4380,8 +4380,8 @@ TextureImporter:
         y: 1600
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5337324, y: 0.44939995}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4397,12 +4397,12 @@ TextureImporter:
       name: Buff Warlord_265
       rect:
         serializedVersion: 2
-        x: 832
+        x: 845
         y: 1600
-        width: 64
+        width: 103
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.21703391, y: 0.44939995}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4418,12 +4418,12 @@ TextureImporter:
       name: Buff Warlord_267
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1040
         y: 1600
-        width: 64
+        width: 100
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.19775024, y: 0.46626663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4441,10 +4441,10 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 1408
-        width: 64
+        width: 95
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.34092143, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4462,10 +4462,10 @@ TextureImporter:
         serializedVersion: 2
         x: 256
         y: 1408
-        width: 64
+        width: 91
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.35765326, y: 0.46626663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4483,10 +4483,10 @@ TextureImporter:
         serializedVersion: 2
         x: 448
         y: 1408
-        width: 64
+        width: 96
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.3313338, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4502,12 +4502,12 @@ TextureImporter:
       name: Buff Warlord_284
       rect:
         serializedVersion: 2
-        x: 640
-        y: 1408
-        width: 64
+        x: 613
+        y: 1406
+        width: 87
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.6612984, y: 0.48313332}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4523,9 +4523,9 @@ TextureImporter:
       name: Buff Warlord_286
       rect:
         serializedVersion: 2
-        x: 832
+        x: 827
         y: 1408
-        width: 64
+        width: 69
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4569,8 +4569,8 @@ TextureImporter:
         y: 1216
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.43253362, y: 0.48313332}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4586,12 +4586,12 @@ TextureImporter:
       name: Buff Warlord_296
       rect:
         serializedVersion: 2
-        x: 256
+        x: 240
         y: 1216
-        width: 64
+        width: 80
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5269867, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4607,12 +4607,12 @@ TextureImporter:
       name: Buff Warlord_298
       rect:
         serializedVersion: 2
-        x: 448
+        x: 402
         y: 1216
-        width: 64
+        width: 110
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.6766391, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4630,10 +4630,10 @@ TextureImporter:
         serializedVersion: 2
         x: 640
         y: 1216
-        width: 64
+        width: 79
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.39068758, y: 0.44939995}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4670,9 +4670,9 @@ TextureImporter:
       name: Buff Warlord_303
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1012
         y: 1216
-        width: 64
+        width: 76
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4693,7 +4693,7 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 1024
-        width: 64
+        width: 86
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4714,7 +4714,7 @@ TextureImporter:
         serializedVersion: 2
         x: 256
         y: 1024
-        width: 64
+        width: 93
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4735,7 +4735,7 @@ TextureImporter:
         serializedVersion: 2
         x: 448
         y: 1024
-        width: 64
+        width: 99
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4755,9 +4755,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 640
-        y: 1024
-        width: 64
-        height: 64
+        y: 1019
+        width: 86
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4775,9 +4775,9 @@ TextureImporter:
       name: Buff Warlord_320
       rect:
         serializedVersion: 2
-        x: 832
+        x: 830
         y: 1024
-        width: 64
+        width: 66
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4797,9 +4797,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1024
-        y: 1024
+        y: 1020
         width: 64
-        height: 64
+        height: 68
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4819,7 +4819,7 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 832
-        width: 64
+        width: 116
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4840,7 +4840,7 @@ TextureImporter:
         serializedVersion: 2
         x: 256
         y: 832
-        width: 64
+        width: 116
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4924,7 +4924,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1024
         y: 832
-        width: 64
+        width: 81
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5111,9 +5111,9 @@ TextureImporter:
       name: Buff Warlord_366
       rect:
         serializedVersion: 2
-        x: 64
+        x: 51
         y: 448
-        width: 64
+        width: 77
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5132,9 +5132,9 @@ TextureImporter:
       name: Buff Warlord_368
       rect:
         serializedVersion: 2
-        x: 256
+        x: 246
         y: 448
-        width: 64
+        width: 74
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5153,9 +5153,9 @@ TextureImporter:
       name: Buff Warlord_370
       rect:
         serializedVersion: 2
-        x: 448
+        x: 439
         y: 448
-        width: 64
+        width: 73
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5174,9 +5174,9 @@ TextureImporter:
       name: Buff Warlord_372
       rect:
         serializedVersion: 2
-        x: 640
+        x: 628
         y: 448
-        width: 64
+        width: 76
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5195,9 +5195,9 @@ TextureImporter:
       name: Buff Warlord_374
       rect:
         serializedVersion: 2
-        x: 832
+        x: 807
         y: 448
-        width: 64
+        width: 89
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5216,9 +5216,9 @@ TextureImporter:
       name: Buff Warlord_376
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 996
         y: 448
-        width: 64
+        width: 92
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5237,9 +5237,9 @@ TextureImporter:
       name: Buff Warlord_378
       rect:
         serializedVersion: 2
-        x: 1216
+        x: 1192
         y: 448
-        width: 64
+        width: 88
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5258,9 +5258,9 @@ TextureImporter:
       name: Buff Warlord_380
       rect:
         serializedVersion: 2
-        x: 1408
+        x: 1392
         y: 448
-        width: 64
+        width: 80
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5364,9 +5364,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 832
-        y: 256
+        y: 241
         width: 64
-        height: 64
+        height: 79
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5385,9 +5385,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1024
-        y: 256
+        y: 229
         width: 64
-        height: 64
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5406,9 +5406,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1216
-        y: 256
+        y: 241
         width: 64
-        height: 64
+        height: 79
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5449,7 +5449,7 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 64
+        width: 78
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5470,7 +5470,7 @@ TextureImporter:
         serializedVersion: 2
         x: 256
         y: 64
-        width: 64
+        width: 76
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5491,7 +5491,7 @@ TextureImporter:
         serializedVersion: 2
         x: 448
         y: 64
-        width: 64
+        width: 77
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5512,7 +5512,7 @@ TextureImporter:
         serializedVersion: 2
         x: 640
         y: 64
-        width: 64
+        width: 78
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5533,7 +5533,7 @@ TextureImporter:
         serializedVersion: 2
         x: 832
         y: 64
-        width: 64
+        width: 87
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5554,7 +5554,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1024
         y: 64
-        width: 64
+        width: 92
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5575,7 +5575,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1216
         y: 64
-        width: 64
+        width: 91
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5596,7 +5596,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1408
         y: 64
-        width: 64
+        width: 82
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

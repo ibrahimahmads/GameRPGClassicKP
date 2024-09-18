@@ -10,9 +10,13 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     public Transform attackPoint;
-    public float attackRange = 2f;
+    public float attackRange;
     public LayerMask enemyLayers;
     public int damage = 40;
+    public float attLeft;
+    public float attUp;
+    public float attDown;
+    public float attRight;
 
     private void Awake()
     {
@@ -74,29 +78,26 @@ public class PlayerController : MonoBehaviour
             {
                 attackDirection = Vector2.right;
                 animator.SetFloat("AttDirection", 2);
-                attackPoint.localPosition = attackDirection * 0.7f;
+                attackPoint.localPosition = attackDirection * attRight;
             }
             else if (movement.x < 0) // Kiri
             {
                 attackDirection = Vector2.left;
                 animator.SetFloat("AttDirection", 3);
-                attackPoint.localPosition = attackDirection * 0.7f;
+                attackPoint.localPosition = attackDirection * attLeft;
             }
             else if (movement.y > 0) // Atas
             {
                 attackDirection = Vector2.up;
                 animator.SetFloat("AttDirection", 1);
-                attackPoint.localPosition = attackDirection * 0.3f;
+                attackPoint.localPosition = attackDirection * attUp;
             }
             else if (movement.y < 0) // Bawah
             {
                 attackDirection = Vector2.down;
                 animator.SetFloat("AttDirection", 0);
-                attackPoint.localPosition = attackDirection * 1.3f;
+                attackPoint.localPosition = attackDirection * attDown;
             }
-
-            // Pindahkan attackPoint ke arah yang sesuai
-             
 
             // Trigger animasi serangan
             animator.SetTrigger("Attack");
@@ -107,7 +108,6 @@ public class PlayerController : MonoBehaviour
             // Berikan damage ke musuh yang terkena
             foreach (Collider2D enemy in hitEnemies)
             {
-                Debug.Log("Enemy hit: " + enemy.name);
                 enemy.GetComponent<EnemyHealth>()?.TakeDamage(damage); // Pastikan enemy punya script untuk menerima damage
             }
         }
