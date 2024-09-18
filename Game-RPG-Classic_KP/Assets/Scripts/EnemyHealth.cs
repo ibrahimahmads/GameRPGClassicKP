@@ -18,8 +18,6 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Enemy DIed!!!");
-        // Implementasi kematian enemy
-        //Destroy(gameObject);
+        Destroy(gameObject);
     }
 }
