@@ -101,19 +101,24 @@ public class PlayerController : MonoBehaviour
 
             // Trigger animasi serangan
             animator.SetTrigger("Attack");
-
-            // Detect enemies in range of attack
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-            // Berikan damage ke musuh yang terkena
-            foreach (Collider2D enemy in hitEnemies)
-            {
-                enemy.GetComponent<EnemyHealth>()?.TakeDamage(damage); // Pastikan enemy punya script untuk menerima damage
-            }
+            GiveDamage();
+            
         }
     }
 
-    private void OnDrawGizmosSelected()
+    public void GiveDamage()
+    {
+        // Detect enemies in range of attack
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        // Berikan damage ke musuh yang terkena
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<EnemyHealth>()?.TakeDamage(damage); // Pastikan enemy punya script untuk menerima damage
+        }
+    }
+
+    private void OnDrawGizmos()
     {
         if (attackPoint == null) return;
 
