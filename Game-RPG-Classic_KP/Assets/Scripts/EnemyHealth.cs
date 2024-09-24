@@ -5,6 +5,12 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int health = 100;
+    public HealthBar expBar;
+
+    void Update()
+    {
+        
+    }
 
     public void TakeDamage(int damage)
     {
@@ -14,10 +20,12 @@ public class EnemyHealth : MonoBehaviour
         {
             Die();
         }
+        
     }
 
     void Die()
     {
+        expBar.SetExp(4);
         Destroy(gameObject);
     }
 }

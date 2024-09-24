@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  expBar: {fileID: 1417689045429783761, guid: 9b2e63231de5fc442b48d9467ab87ed2, type: 3}
 --- !u!114 &-6395746847731048655
 MonoBehaviour:
   m_ObjectHideFlags: 0

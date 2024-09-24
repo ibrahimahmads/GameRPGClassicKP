@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 3014359701735390846}
   - component: {fileID: 6246792664049018339}
   - component: {fileID: 2047045914565986946}
-  - component: {fileID: -5964574132962461690}
-  - component: {fileID: -8269247931907732468}
+  - component: {fileID: 2093446964322582773}
+  - component: {fileID: 7875249305023375043}
   m_Layer: 6
   m_Name: Red Slime
   m_TagString: Untagged
@@ -102,7 +102,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -186,7 +186,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
---- !u!114 &-5964574132962461690
+  expBar: {fileID: 1417689045429783761, guid: 9b2e63231de5fc442b48d9467ab87ed2, type: 3}
+--- !u!114 &2093446964322582773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,12 +196,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1607593911327360844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50db939a6585eb849979d2cd3ff9c220, type: 3}
+  m_Script: {fileID: 11500000, guid: ccc1e78fea903e9408bf062960374998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRange: 5
-  attackRange: 1.5
---- !u!114 &-8269247931907732468
+--- !u!114 &7875249305023375043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,7 +208,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1607593911327360844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62752ced707f7ed428fa5d2924a27561, type: 3}
+  m_Script: {fileID: 11500000, guid: 106ae3786accf7943be4110be49fd5b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPosition: {x: 0, y: 0}
+  moveSpeed: 2

@@ -62,7 +62,5 @@ public class SlimeAI : MonoBehaviour
         {
             returningToSpawn = false;  // Stop returning when reaching spawn
         }
-    }
-
-    
+    }   
 }

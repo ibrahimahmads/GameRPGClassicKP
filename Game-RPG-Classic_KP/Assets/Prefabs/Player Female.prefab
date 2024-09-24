@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1485693567853991526}
   - component: {fileID: 597737510831904219}
   - component: {fileID: 506622666404557313}
+  - component: {fileID: -363064951170665473}
   m_Layer: 0
   m_Name: Player Female
   m_TagString: Player
@@ -169,7 +170,6 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
-  damage: 40
   attLeft: 0.7
   attUp: 0.3
   attDown: 1.3
@@ -195,6 +195,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-363064951170665473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523268034042342359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67e02015a5216d4793b590b42e050dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 100
+  curHp: 0
+  damage: 35
+  hpBar: {fileID: 0}
 --- !u!1 &2076604873106387604
 GameObject:
   m_ObjectHideFlags: 0
