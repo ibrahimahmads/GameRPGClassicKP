@@ -12,14 +12,15 @@ public class PlayerController : MonoBehaviour
     public Transform attackPoint;
     public float attackRange;
     public LayerMask enemyLayers;
-    public int damage = 40;
     public float attLeft;
     public float attUp;
     public float attDown;
     public float attRight;
+    private PlayerStat playerStat;
 
     private void Awake()
     {
+        playerStat = GetComponent<PlayerStat>();
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -114,7 +115,7 @@ public class PlayerController : MonoBehaviour
         // Berikan damage ke musuh yang terkena
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<EnemyHealth>()?.TakeDamage(damage); // Pastikan enemy punya script untuk menerima damage
+            enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerStat.damage); // Pastikan enemy punya script untuk menerima damage
         }
     }
 
