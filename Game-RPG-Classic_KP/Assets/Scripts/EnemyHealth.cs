@@ -8,6 +8,10 @@ public class EnemyHealth : MonoBehaviour
     public int health = 100;
     public HealthBar expBar;
 
+    public float launchForce = 300f; // Kekuatan lemparan
+    public float launchAngle = 45f; 
+    public float fallBackSpeed = 2f;
+
     void Start()
     {
         Time.timeScale = 1f;
@@ -30,28 +34,25 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
-        DropItems();
+        DropItems(transform.position);
         expBar.SetExp(4);
         Destroy(gameObject);
     }
 
-    void DropItems()
+    void DropItems(Vector2 posisi)
     {
         foreach (ItemData item in itemDrops)
         {
             if (Random.value <= item.dropChance) // Kalikan dengan 100 untuk bandingkan dengan dropChance
             {
-                GameObject droppedItem = Instantiate(item.itemPrefab, transform.position, Quaternion.identity);
+                GameObject droppedItem = Instantiate(item.itemPrefab, posisi, Quaternion.identity);
 
-                // Tambahkan gaya untuk melempar item ke atas
-                Rigidbody2D rb = droppedItem.GetComponent<Rigidbody2D>();
-                if (rb != null)
-                {
-                    // Terapkan gaya ke arah atas dengan sedikit variasi
-                    float forceX = Random.Range(-5f, 5f); // Variasi gaya ke arah X
-                    float forceY = Random.Range(8f, 12f); // Gaya ke arah Y (vertikal)
-                    rb.AddForce(new Vector2(forceX, forceY), ForceMode2D.Impulse);
-                }
+                Vector2 direction = new Vector2(transform.position.x + Random.Range(-1f,1f), Random.Range(2f,4f));
+                droppedItem.GetComponent<Rigidbody2D>().AddForce(direction*3f,ForceMode2D.Impulse);
+                
+                
+                
+                //StartCoroutine(LaunchItem(droppedItem));
 
                 // Jika item memiliki animasi, tambahkan ke objek dropped
                 if (item.itemAnimation != null)
@@ -64,6 +65,17 @@ public class EnemyHealth : MonoBehaviour
                     }
                 }
             }
+        }
+    }
+
+    IEnumerator ReturnToStartY(GameObject item, float startY)
+    {
+        while (Mathf.Abs(item.transform.position.y - startY) > 0.1f) // Ketika item belum mencapai posisi awal
+        {
+            Vector3 currentPosition = item.transform.position;
+            currentPosition.y = Mathf.MoveTowards(currentPosition.y, startY, fallBackSpeed * Time.deltaTime);
+            item.transform.position = currentPosition;
+            yield return null;
         }
     }
 }
