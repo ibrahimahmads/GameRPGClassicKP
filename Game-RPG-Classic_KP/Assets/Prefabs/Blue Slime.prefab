@@ -189,6 +189,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 81a406038e8a9494c8d7edd698dff5be, type: 2}
   - {fileID: 11400000, guid: 733a3905bd9bce44792726459609aea2, type: 2}
   health: 100
+  exp: 8
   expBar: {fileID: 1417689045429783761, guid: 9b2e63231de5fc442b48d9467ab87ed2, type: 3}
 --- !u!114 &7890100223875170690
 MonoBehaviour:

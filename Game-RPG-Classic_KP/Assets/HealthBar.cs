@@ -5,17 +5,8 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    private int maxExp = 20;
-    private int curExp;
-
     public Slider hpSlider;
     public Slider expSlider;
-
-    void Start()
-    {
-        expSlider.maxValue = maxExp;
-        expSlider.value = curExp;
-    }
 
     public void SetHealth(int health)
     {
@@ -30,7 +21,12 @@ public class HealthBar : MonoBehaviour
 
     public void SetExp(int exp)
     {
-        curExp += exp;
-        expSlider.value = curExp;
+        expSlider.value = exp;
+    }
+
+    public void SetMaxExp(int maxExp)
+    {
+        expSlider.value = 0;
+        expSlider.maxValue = maxExp;
     }
 }
