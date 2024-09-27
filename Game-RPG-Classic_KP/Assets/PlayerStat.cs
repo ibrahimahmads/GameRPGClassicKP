@@ -85,8 +85,6 @@ public class PlayerStat : MonoBehaviour
         curHp = hp;  // Reset HP ke max saat level up
         hpBar.SetMaxHp(hp);  // Update bar HP
         hpBar.SetHealth(curHp);
-
-        Debug.Log("Level Up! Now at level " + level);
-        lvlText.text = ""+level;
+        lvlText.text = level.ToString();
     }
 }

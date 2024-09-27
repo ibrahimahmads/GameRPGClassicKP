@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Potion
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 988476741479470972, guid: 65e6fc748ddd69643b60d19ff7626700, type: 3}
-  dropChance: 75
+  dropChance: 0.05
   itemAnimation: {fileID: 7400000, guid: 115a9a58adb6917438aa128a716a4322, type: 2}
