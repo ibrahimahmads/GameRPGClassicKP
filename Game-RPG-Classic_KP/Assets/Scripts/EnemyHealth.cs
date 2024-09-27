@@ -8,13 +8,10 @@ public class EnemyHealth : MonoBehaviour
     public int health = 100;
     public int exp;
     public HealthBar expBar;
+
     void Start()
     {
         Time.timeScale = 1f;
-    }
-    void Update()
-    {
-        
     }
 
     public void TakeDamage(int damage)
@@ -24,13 +21,13 @@ public class EnemyHealth : MonoBehaviour
         if (health <= 0)
         {
             Die();
-        }    
+        }
     }
 
     void Die()
     {
         DropItems(transform.position);
-        PlayerStat.Instance.GainExp(exp); 
+        PlayerStat.Instance.GainExp(exp);
         Destroy(gameObject);
     }
 
@@ -38,23 +35,23 @@ public class EnemyHealth : MonoBehaviour
     {
         foreach (ItemData item in itemDrops)
         {
-            if (Random.value <= item.dropChance) // Kalikan dengan 100 untuk bandingkan dengan dropChance
+            if (Random.value <= item.dropChance)
             {
                 GameObject droppedItem = Instantiate(item.itemPrefab, posisi, Quaternion.identity);
 
-                 // Mendapatkan Rigidbody2D dari item yang dijatuhkan
+                // Mendapatkan Rigidbody2D dari item yang dijatuhkan
                 Rigidbody2D rb = droppedItem.GetComponent<Rigidbody2D>();
 
                 if (rb != null)
                 {
-
                     // Tambahkan gaya ke item agar terlempar ke arah acak di sumbu X dan Y
-                    Vector2 throwDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized; // Arah acak
-                    rb.AddForce(throwDirection * 10f, ForceMode2D.Impulse);  // 5f adalah kekuatan lemparan, bisa diubah
+                    Vector2 throwDirection =
+                        new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized; // Arah acak
+                    rb.AddForce(throwDirection * 10f, ForceMode2D.Impulse); // 5f adalah kekuatan lemparan, bisa diubah
 
                     rb.drag = 2f;
                 }
-                
+
                 // Jika item memiliki animasi, tambahkan ke objek dropped
                 if (item.itemAnimation != null)
                 {
