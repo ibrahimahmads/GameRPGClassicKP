@@ -8,16 +8,23 @@ public class EnemyHealth : MonoBehaviour
     public int health = 100;
     public int exp;
     public HealthBar expBar;
+    private Knockback knockback;
+
+    void Awake()
+    {
+        knockback = GetComponent<Knockback>();
+    }
 
     void Start()
     {
         Time.timeScale = 1f;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, Transform damageSource, float knockBackThrust)
     {
         health -= damage;
         Debug.Log("Enemy Take damage");
+        knockback?.GetKnockedBack(damageSource, knockBackThrust);
         if (health <= 0)
         {
             Die();
