@@ -9,14 +9,16 @@ public class PlayerController : MonoBehaviour
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
-    public Transform attackPoint;
     public float attackRange;
     public LayerMask enemyLayers;
-    public float attLeft;
-    public float attUp;
-    public float attDown;
-    public float attRight;
     private PlayerStat playerStat;
+
+    public GameObject attackPointRight; // GameObject untuk serangan kanan
+    public GameObject attackPointLeft; // GameObject untuk serangan kiri
+    public GameObject attackPointUp; // GameObject untuk serangan atas
+    public GameObject attackPointDown;
+
+    [SerializeField] private float knockBackThrust = 5f;
 
     private void Awake()
     {
@@ -24,6 +26,11 @@ public class PlayerController : MonoBehaviour
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        attackPointRight.SetActive(false);
+        attackPointLeft.SetActive(false);
+        attackPointUp.SetActive(false);
+        attackPointDown.SetActive(false);
     }
 
     private void OnEnable()
@@ -72,32 +79,35 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1")) // Tombol serangan, misalnya "Fire1"
         {
-            // Tentukan arah serangan berdasarkan input dan update posisi attackPoint
-            Vector2 attackDirection = Vector2.down;
+            attackPointRight.SetActive(false);
+            attackPointLeft.SetActive(false);
+            attackPointUp.SetActive(false);
+            attackPointDown.SetActive(false);
 
+            // Tentukan arah serangan
             if (movement.x > 0) // Kanan
             {
-                attackDirection = Vector2.right;
+                attackPointRight.SetActive(true);
                 animator.SetFloat("AttDirection", 2);
-                attackPoint.localPosition = attackDirection * attRight;
             }
             else if (movement.x < 0) // Kiri
             {
-                attackDirection = Vector2.left;
+                attackPointLeft.SetActive(true);
                 animator.SetFloat("AttDirection", 3);
-                attackPoint.localPosition = attackDirection * attLeft;
             }
             else if (movement.y > 0) // Atas
             {
-                attackDirection = Vector2.up;
+                attackPointUp.SetActive(true);
                 animator.SetFloat("AttDirection", 1);
-                attackPoint.localPosition = attackDirection * attUp;
             }
             else if (movement.y < 0) // Bawah
             {
-                attackDirection = Vector2.down;
+                attackPointDown.SetActive(true);
                 animator.SetFloat("AttDirection", 0);
-                attackPoint.localPosition = attackDirection * attDown;
+            }else
+            {
+                attackPointDown.SetActive(true);
+                animator.SetFloat("AttDirection", 0);
             }
 
             // Trigger animasi serangan
@@ -107,24 +117,36 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void GiveDamage()
+    public void AttackAnimEndEvent()
     {
-        // Detect enemies in range of attack
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-        // Berikan damage ke musuh yang terkena
-        foreach (Collider2D enemy in hitEnemies)
-        {
-            enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerStat.damage); // Pastikan enemy punya script untuk menerima damage
-        }
+        attackPointRight.SetActive(false);
+        attackPointLeft.SetActive(false);
+        attackPointUp.SetActive(false);
+        attackPointDown.SetActive(false);
     }
 
-    private void OnDrawGizmos()
+    public void GiveDamage()
     {
-        if (attackPoint == null) return;
+        GameObject activeAttackPoint = null;
 
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        if (attackPointRight.activeSelf)
+            activeAttackPoint = attackPointRight;
+        else if (attackPointLeft.activeSelf)
+            activeAttackPoint = attackPointLeft;
+        else if (attackPointUp.activeSelf)
+            activeAttackPoint = attackPointUp;
+        else if (attackPointDown.activeSelf)
+            activeAttackPoint = attackPointDown;
+
+    if (activeAttackPoint != null)
+    {
+        // Detect enemies in range of attack
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(activeAttackPoint.transform.position, attackRange, enemyLayers);
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerStat.damage, transform, knockBackThrust);
+        }
+    }
     }
 
 }
