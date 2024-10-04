@@ -12,16 +12,16 @@ public class PlayerController : MonoBehaviour
     public float attackRange;
     public LayerMask enemyLayers;
     private PlayerStat playerStat;
+    public static PlayerController Instance;
 
-    public GameObject attackPointRight; // GameObject untuk serangan kanan
-    public GameObject attackPointLeft; // GameObject untuk serangan kiri
-    public GameObject attackPointUp; // GameObject untuk serangan atas
+    public GameObject attackPointRight; 
+    public GameObject attackPointLeft; 
+    public GameObject attackPointUp; 
     public GameObject attackPointDown;
-
-    [SerializeField] private float knockBackThrust = 5f;
 
     private void Awake()
     {
+        Instance = this;
         playerStat = GetComponent<PlayerStat>();
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
@@ -112,7 +112,6 @@ public class PlayerController : MonoBehaviour
 
             // Trigger animasi serangan
             animator.SetTrigger("Attack");
-            GiveDamage();
             
         }
     }
@@ -144,7 +143,7 @@ public class PlayerController : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(activeAttackPoint.transform.position, attackRange, enemyLayers);
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerStat.damage, transform, knockBackThrust);
+            enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerStat.damage);
         }
     }
     }

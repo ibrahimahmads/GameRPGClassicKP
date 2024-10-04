@@ -138,7 +138,6 @@ GameObject:
   - component: {fileID: 69428527}
   - component: {fileID: 69428526}
   - component: {fileID: 69428525}
-  - component: {fileID: 69428524}
   m_Layer: 6
   m_Name: slime (3)
   m_TagString: Untagged
@@ -146,20 +145,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &69428524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69428523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdd4eddebdb0ace43a729fa37872b2c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionRange: 5
-  attackRange: 1
 --- !u!114 &69428525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -788,6 +773,10 @@ PrefabInstance:
       propertyPath: itemDrops.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 81a406038e8a9494c8d7edd698dff5be, type: 2}
+    - target: {fileID: 6621166380580868359, guid: 673cc93d17717034691140ebd28af02e, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9074313589903712310, guid: 673cc93d17717034691140ebd28af02e, type: 3}
       propertyPath: m_Name
       value: Blue Slime (1)
@@ -1257,6 +1246,10 @@ PrefabInstance:
       propertyPath: itemDrops.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 81a406038e8a9494c8d7edd698dff5be, type: 2}
+    - target: {fileID: 6621166380580868359, guid: 673cc93d17717034691140ebd28af02e, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9074313589903712310, guid: 673cc93d17717034691140ebd28af02e, type: 3}
       propertyPath: m_Name
       value: Blue Slime
@@ -1400,6 +1393,10 @@ PrefabInstance:
       propertyPath: itemDrops.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 81a406038e8a9494c8d7edd698dff5be, type: 2}
+    - target: {fileID: 6621166380580868359, guid: 673cc93d17717034691140ebd28af02e, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9074313589903712310, guid: 673cc93d17717034691140ebd28af02e, type: 3}
       propertyPath: m_Name
       value: Blue Slime (4)
@@ -1596,6 +1593,10 @@ PrefabInstance:
       propertyPath: itemDrops.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 81a406038e8a9494c8d7edd698dff5be, type: 2}
+    - target: {fileID: 6621166380580868359, guid: 673cc93d17717034691140ebd28af02e, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9074313589903712310, guid: 673cc93d17717034691140ebd28af02e, type: 3}
       propertyPath: m_Name
       value: Blue Slime (2)
@@ -1665,6 +1666,10 @@ PrefabInstance:
       propertyPath: itemDrops.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 81a406038e8a9494c8d7edd698dff5be, type: 2}
+    - target: {fileID: 6621166380580868359, guid: 673cc93d17717034691140ebd28af02e, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9074313589903712310, guid: 673cc93d17717034691140ebd28af02e, type: 3}
       propertyPath: m_Name
       value: Blue Slime (3)

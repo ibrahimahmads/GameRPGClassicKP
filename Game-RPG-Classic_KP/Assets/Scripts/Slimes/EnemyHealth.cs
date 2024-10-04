@@ -9,9 +9,11 @@ public class EnemyHealth : MonoBehaviour
     public int exp;
     public HealthBar expBar;
     private Knockback knockback;
+    private Flash flash;
 
     void Awake()
     {
+        flash = GetComponent<Flash>();
         knockback = GetComponent<Knockback>();
     }
 
@@ -20,22 +22,22 @@ public class EnemyHealth : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void TakeDamage(int damage, Transform damageSource, float knockBackThrust)
+    public void TakeDamage(int damage)
     {
         health -= damage;
         Debug.Log("Enemy Take damage");
-        knockback?.GetKnockedBack(damageSource, knockBackThrust);
-        if (health <= 0)
-        {
-            Die();
-        }
+        knockback?.GetKnockedBack(PlayerController.Instance.transform, 10f);
+        StartCoroutine(flash.FlashRoutine());
     }
 
-    void Die()
+    public void Die()
     {
-        DropItems(transform.position);
-        PlayerStat.Instance.GainExp(exp);
-        Destroy(gameObject);
+        if(health <= 0)
+        {
+            DropItems(transform.position);
+            PlayerStat.Instance.GainExp(exp);
+            Destroy(gameObject);
+        }
     }
 
     void DropItems(Vector2 posisi)
