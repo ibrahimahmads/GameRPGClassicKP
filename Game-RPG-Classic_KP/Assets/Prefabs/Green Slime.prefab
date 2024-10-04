@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -6395746847731048655}
   - component: {fileID: 4795074550664781375}
   - component: {fileID: -4220831877675679917}
+  - component: {fileID: -8300616820397425732}
   m_Layer: 6
   m_Name: Green Slime
   m_TagString: Untagged
@@ -103,7 +104,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -231,5 +232,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04939d29d1186cd4ebc55d2f789eed8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockbackForce: 5
-  knockbackDuration: 0.5
+  knockBackTime: 0.2
+--- !u!114 &-8300616820397425732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6829459078261253897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e365be5d6b2ec224b9ab2f4de69600dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteFlashMat: {fileID: 2100000, guid: 7695f6ccbf5246a42a68a74e9864414f, type: 2}
+  restoreDefaultMatTime: 0.2
