@@ -4,10 +4,12 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUI;  // Drag the pause menu UI panel here in the inspector
     private bool isPaused = false;
+    private Animator animator;
 
     void Awake()
     {
-        pauseMenuUI.SetActive(false);
+        pauseMenuUI.SetActive(true);
+        animator = pauseMenuUI.GetComponent<Animator>();
     }
 
     void Update()
@@ -27,16 +29,20 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;  // Resume the game time
         isPaused = false;
+        pauseMenuUI.SetActive(isPaused);
+        Time.timeScale = 1f;  // Resume the game time
+        
     }
 
     void Pause()
-    {
-        pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;  // Pause the game time
+    { 
         isPaused = true;
+        pauseMenuUI.SetActive(isPaused);
+
+        animator.SetTrigger("Pause");
+        Time.timeScale = 0f;  // Pause the game time
+        
     }
 
     public void QuitGame()
