@@ -135,9 +135,9 @@ GameObject:
   - component: {fileID: 69428530}
   - component: {fileID: 69428529}
   - component: {fileID: 69428528}
-  - component: {fileID: 69428527}
+  - component: {fileID: 69428534}
   - component: {fileID: 69428526}
-  - component: {fileID: 69428525}
+  - component: {fileID: 69428533}
   m_Layer: 6
   m_Name: slime (3)
   m_TagString: Untagged
@@ -145,20 +145,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &69428525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69428523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50db939a6585eb849979d2cd3ff9c220, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionRange: 5
-  attackRange: 1
 --- !u!114 &69428526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,19 +163,6 @@ MonoBehaviour:
   health: 100
   exp: 8
   expBar: {fileID: 1141908070}
---- !u!114 &69428527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69428523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62752ced707f7ed428fa5d2924a27561, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPosition: {x: -2.782705, y: -3.173032}
 --- !u!70 &69428528
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -340,6 +313,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &69428533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69428523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc1e78fea903e9408bf062960374998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &69428534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69428523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106ae3786accf7943be4110be49fd5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
 --- !u!1 &80833507
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,9 +907,9 @@ GameObject:
   - component: {fileID: 844903543}
   - component: {fileID: 844903548}
   - component: {fileID: 844903547}
-  - component: {fileID: 844903550}
+  - component: {fileID: 844903554}
   - component: {fileID: 844903552}
-  - component: {fileID: 844903549}
+  - component: {fileID: 844903553}
   - component: {fileID: 844903551}
   m_Layer: 6
   m_Name: slime
@@ -1070,33 +1068,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &844903549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 844903542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50db939a6585eb849979d2cd3ff9c220, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionRange: 5
-  attackRange: 1
---- !u!114 &844903550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 844903542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62752ced707f7ed428fa5d2924a27561, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPosition: {x: -2.782705, y: -3.173032}
 --- !u!114 &844903551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,6 +1100,31 @@ MonoBehaviour:
   health: 100
   exp: 8
   expBar: {fileID: 1141908070}
+--- !u!114 &844903553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844903542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc1e78fea903e9408bf062960374998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &844903554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844903542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106ae3786accf7943be4110be49fd5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
 --- !u!1 &854261451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,9 +1750,9 @@ GameObject:
   - component: {fileID: 1787769287}
   - component: {fileID: 1787769286}
   - component: {fileID: 1787769285}
-  - component: {fileID: 1787769284}
+  - component: {fileID: 1787769291}
   - component: {fileID: 1787769283}
-  - component: {fileID: 1787769282}
+  - component: {fileID: 1787769290}
   - component: {fileID: 1787769281}
   m_Layer: 6
   m_Name: slime (2)
@@ -1779,20 +1775,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionRange: 5
   attackRange: 1
---- !u!114 &1787769282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787769280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50db939a6585eb849979d2cd3ff9c220, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionRange: 5
-  attackRange: 1
 --- !u!114 &1787769283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1811,19 +1793,6 @@ MonoBehaviour:
   health: 100
   exp: 8
   expBar: {fileID: 1141908070}
---- !u!114 &1787769284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787769280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62752ced707f7ed428fa5d2924a27561, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPosition: {x: -2.782705, y: -3.173032}
 --- !u!70 &1787769285
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1974,6 +1943,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1787769290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787769280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc1e78fea903e9408bf062960374998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1787769291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787769280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106ae3786accf7943be4110be49fd5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
 --- !u!1 &1861857326
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,9 +2241,9 @@ GameObject:
   - component: {fileID: 2027366070}
   - component: {fileID: 2027366069}
   - component: {fileID: 2027366068}
-  - component: {fileID: 2027366067}
+  - component: {fileID: 2027366074}
   - component: {fileID: 2027366066}
-  - component: {fileID: 2027366065}
+  - component: {fileID: 2027366073}
   - component: {fileID: 2027366064}
   m_Layer: 6
   m_Name: slime (1)
@@ -2272,20 +2266,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionRange: 5
   attackRange: 1
---- !u!114 &2027366065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027366063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50db939a6585eb849979d2cd3ff9c220, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionRange: 5
-  attackRange: 1
 --- !u!114 &2027366066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2304,19 +2284,6 @@ MonoBehaviour:
   health: 100
   exp: 8
   expBar: {fileID: 1141908070}
---- !u!114 &2027366067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027366063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62752ced707f7ed428fa5d2924a27561, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPosition: {x: -2.782705, y: -3.173032}
 --- !u!70 &2027366068
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2467,6 +2434,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2027366073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027366063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc1e78fea903e9408bf062960374998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2027366074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027366063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106ae3786accf7943be4110be49fd5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
 --- !u!1 &2086445962
 GameObject:
   m_ObjectHideFlags: 0
