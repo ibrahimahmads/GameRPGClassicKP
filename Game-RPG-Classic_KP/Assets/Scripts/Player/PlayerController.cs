@@ -18,6 +18,11 @@ public class PlayerController : MonoBehaviour
     public GameObject attackPointLeft; 
     public GameObject attackPointUp; 
     public GameObject attackPointDown;
+    
+    public float attackCooldown = 0.1f; // Durasi cooldown
+    private float lastAttackTime = 0f;
+    
+    private bool isPaused = false;
 
     private void Awake()
     {
@@ -40,14 +45,20 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        PlayerInput();
-        Animation();
-        Attack();
+        if (!isPaused) // Cek jika permainan tidak sedang pause
+        {
+            PlayerInput();
+            Animation();
+            Attack();
+        }
     }
 
     private void FixedUpdate()
     {
-        move();
+        if (!isPaused) // Cek jika permainan tidak sedang pause
+        {
+            move();
+        }
     }
 
     private void PlayerInput()
@@ -58,6 +69,11 @@ public class PlayerController : MonoBehaviour
     private void move()
     {
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+    }
+    
+    public void SetPauseState(bool paused)
+    {
+        isPaused = paused; // Set status pause
     }
 
     private void Animation()
@@ -77,8 +93,9 @@ public class PlayerController : MonoBehaviour
 
     private void Attack()
     {
-        if (Input.GetButtonDown("Fire1")) // Tombol serangan, misalnya "Fire1"
+        if (Input.GetButtonDown("Fire1") && Time.time >= lastAttackTime + attackCooldown) // Tombol serangan, misalnya "Fire1"
         {
+            lastAttackTime = Time.time;
             attackPointRight.SetActive(false);
             attackPointLeft.SetActive(false);
             attackPointUp.SetActive(false);
@@ -109,10 +126,8 @@ public class PlayerController : MonoBehaviour
                 attackPointDown.SetActive(true);
                 animator.SetFloat("AttDirection", 0);
             }
-
             // Trigger animasi serangan
             animator.SetTrigger("Attack");
-            
         }
     }
 
@@ -137,15 +152,15 @@ public class PlayerController : MonoBehaviour
         else if (attackPointDown.activeSelf)
             activeAttackPoint = attackPointDown;
 
-    if (activeAttackPoint != null)
-    {
-        // Detect enemies in range of attack
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(activeAttackPoint.transform.position, attackRange, enemyLayers);
-        foreach (Collider2D enemy in hitEnemies)
+        if (activeAttackPoint != null)
         {
-            enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerStat.damage);
+            // Detect enemies in range of attack
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(activeAttackPoint.transform.position, attackRange, enemyLayers);
+            foreach (Collider2D enemy in hitEnemies)
+            {
+                enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerStat.damage);
+            }
         }
-    }
     }
 
 }

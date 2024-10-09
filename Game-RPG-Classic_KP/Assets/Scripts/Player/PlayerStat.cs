@@ -10,6 +10,7 @@ public class PlayerStat : MonoBehaviour
     public int curHp;
     public int damage;
     public int defend;
+    public int luck;
     public int level = 1;  // Level awal
     public int curExp = 0; // EXP saat ini
     public int maxExp = 20;

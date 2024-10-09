@@ -522,6 +522,7 @@ MonoBehaviour:
   attackPointLeft: {fileID: 4402089288988090787}
   attackPointUp: {fileID: 6345974232152733344}
   attackPointDown: {fileID: 1447262281637306007}
+  attackCooldown: 0.1
 --- !u!95 &4455034147002021850
 Animator:
   serializedVersion: 5
@@ -558,7 +559,8 @@ MonoBehaviour:
   hp: 100
   curHp: 0
   damage: 40
-  defend: 0
+  defend: 10
+  luck: 5
   level: 1
   curExp: 0
   maxExp: 20

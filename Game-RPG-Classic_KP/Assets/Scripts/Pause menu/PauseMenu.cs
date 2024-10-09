@@ -1,12 +1,17 @@
 using UnityEngine;
 using System.Collections; 
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUI;  // Drag the pause menu UI panel here in the inspector
     private bool isPaused = false;
     public Animator animator;
+    public Slider expSlider;
+    public TextMeshProUGUI textExp;
+    public TextMeshProUGUI textLevel;
 
     void Awake()
     {
@@ -34,10 +39,18 @@ public class PauseMenu : MonoBehaviour
         Invoke("DeactivatePauseMenu", .4f);
         Time.timeScale = 1f;  // Resume the game time
         isPaused = false;
+        PlayerController.Instance.SetPauseState(false);
     }
 
     IEnumerator PauseCoroutine()
-    { 
+    {
+        int maxExp = PlayerStat.Instance.maxExp;
+        int curExp = PlayerStat.Instance.curExp;
+        int lvl = PlayerStat.Instance.level;
+        expSlider.maxValue = maxExp;
+        expSlider.value = curExp;
+        textExp.text = "EXP :  "+curExp+"  /  "+maxExp;
+        textLevel.text = "Level :  " + lvl;
         pauseMenuUI.SetActive(true);  // Aktifkan panel sebelum animasi berjalan
         animator.Play("pause_show");
 
@@ -45,6 +58,7 @@ public class PauseMenu : MonoBehaviour
         
         Time.timeScale = 0f;  // Pause game setelah animasi selesai
         isPaused = true;
+        PlayerController.Instance.SetPauseState(true);
     }
 
     void DeactivatePauseMenu()
