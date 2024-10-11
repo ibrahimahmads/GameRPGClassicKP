@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: f362d71e9b862de48b8eca1cd3002c0c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 496
+        width: 48
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479123140478f7543900976890450bee
+      internalID: 1205806482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 432
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b905633e8d15c1489e87bc24e98a70f
+      internalID: 1723595851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 449
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecc3f811723f224895c203e9418d718
+      internalID: 622839658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 417
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b78638660127c4e96393a35c885c3c
+      internalID: 1009016958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f025dfdb84a704bb2662cc317835aa
+      internalID: 1297033499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 449
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9480807b9657143a223a1213925f11
+      internalID: 1531409139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 465
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a893f7004988542aeb8e9b08272061
+      internalID: -1788399997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 449
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e36a2b9ca2c364282f9f99b87a70be
+      internalID: -1804342448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 456
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383fa33aba44a844c8e605e6811176f8
+      internalID: -236772024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 441
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74c2622559ecd84a87188c18b6b0ccf
+      internalID: 1644074043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 441
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537f7b96c753b4a458d22a380c5ec32f
+      internalID: -1396493764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 441
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f9faa66c542324ebfd7e6e07dc3724
+      internalID: 1104287559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 320
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f532fcd091d55d8478f7b061dcedd92d
+      internalID: -2000704564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782e35923c1f03147bbbee9590b43e44
+      internalID: -2119004598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 339
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a2b04f13b040d4da3970a638801764
+      internalID: 521829809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882d880db6b73bb40bee99d396504385
+      internalID: -1000499390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 252
+        width: 94
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa20b32d550c194bb3cf0c5b4e35811
+      internalID: 2099018929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_17
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 252
+        width: 94
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc39bec5a1041174587244be9229a30c
+      internalID: 1322318573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 275
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9d9a69972d10b45b04003586d10262
+      internalID: -1614448342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_19
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 218
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3826feacad7fec49a3277ff67967020
+      internalID: 2010554884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 217
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb6a4d999a424f4ba686df3adb19994
+      internalID: -1731105436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_21
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 218
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51f67c4c8198ce43a54eec3b0072b7a
+      internalID: -1358117701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 217
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c73e0e854fa6f41a0f3c755ad4600b
+      internalID: -27882676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_23
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 218
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e329c7212d01b243be63b879135dc02
+      internalID: 1271786938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_24
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 218
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d52f29f19d293e4292ded3b6d028538
+      internalID: -789994291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 208
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccfddcc7b73960489bc6654d4e8b60e
+      internalID: 1763744973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_26
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 208
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f26875c6d01ec49a0846af5616e91d
+      internalID: 1225125086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_27
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 208
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f42b80182d1a0f438532baee0852a31
+      internalID: 1650442935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_roofs_doors_demo_28
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 208
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd04fc0c070c67d48bbca4715a63dc1b
+      internalID: 1688376698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      walls_roofs_doors_demo_0: 1205806482
+      walls_roofs_doors_demo_1: 1723595851
+      walls_roofs_doors_demo_10: -1396493764
+      walls_roofs_doors_demo_11: 1104287559
+      walls_roofs_doors_demo_12: -2000704564
+      walls_roofs_doors_demo_13: -2119004598
+      walls_roofs_doors_demo_14: 521829809
+      walls_roofs_doors_demo_15: -1000499390
+      walls_roofs_doors_demo_16: 2099018929
+      walls_roofs_doors_demo_17: 1322318573
+      walls_roofs_doors_demo_18: -1614448342
+      walls_roofs_doors_demo_19: 2010554884
+      walls_roofs_doors_demo_2: 622839658
+      walls_roofs_doors_demo_20: -1731105436
+      walls_roofs_doors_demo_21: -1358117701
+      walls_roofs_doors_demo_22: -27882676
+      walls_roofs_doors_demo_23: 1271786938
+      walls_roofs_doors_demo_24: -789994291
+      walls_roofs_doors_demo_25: 1763744973
+      walls_roofs_doors_demo_26: 1225125086
+      walls_roofs_doors_demo_27: 1650442935
+      walls_roofs_doors_demo_28: 1688376698
+      walls_roofs_doors_demo_3: 1009016958
+      walls_roofs_doors_demo_4: 1297033499
+      walls_roofs_doors_demo_5: 1531409139
+      walls_roofs_doors_demo_6: -1788399997
+      walls_roofs_doors_demo_7: -1804342448
+      walls_roofs_doors_demo_8: -236772024
+      walls_roofs_doors_demo_9: 1644074043
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
