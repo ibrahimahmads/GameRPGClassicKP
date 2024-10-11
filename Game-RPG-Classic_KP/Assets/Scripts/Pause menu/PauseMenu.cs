@@ -49,7 +49,7 @@ public class PauseMenu : MonoBehaviour
         int lvl = PlayerStat.Instance.level;
         expSlider.maxValue = maxExp;
         expSlider.value = curExp;
-        textExp.text = "EXP :  "+curExp+"  /  "+maxExp;
+        textExp.text = "EXP : "+curExp+" / "+maxExp;
         textLevel.text = "Level :  " + lvl;
         pauseMenuUI.SetActive(true);  // Aktifkan panel sebelum animasi berjalan
         animator.Play("pause_show");
