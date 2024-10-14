@@ -430,6 +430,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1455272524}
   animator: {fileID: 1455272528}
+  expSlider: {fileID: 0}
+  textExp: {fileID: 0}
+  textLevel: {fileID: 0}
 --- !u!4 &1878057677
 Transform:
   m_ObjectHideFlags: 0
@@ -537,6 +540,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1878057676}
+    - target: {fileID: 3199047399030158371, guid: efd05c88ced44db4585dcbd9a2bb2579, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4309494510425223063, guid: efd05c88ced44db4585dcbd9a2bb2579, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -548,6 +555,10 @@ PrefabInstance:
     - target: {fileID: 7758382844547419332, guid: efd05c88ced44db4585dcbd9a2bb2579, type: 3}
       propertyPath: m_Name
       value: Panel Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 8485529646744317499, guid: efd05c88ced44db4585dcbd9a2bb2579, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
