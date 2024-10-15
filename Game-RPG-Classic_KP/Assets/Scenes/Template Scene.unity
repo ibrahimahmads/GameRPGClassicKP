@@ -881,7 +881,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -942,25 +942,41 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
-      e00: 5.3e-44
+      e00: 2.3738e-41
       e01: 0
-      e02: 2.0328811e-19
-      e03: 2.0328811e-19
+      e02: -1.1811176e+10
+      e03: -1.1811176e+10
       e10: 0
       e11: 0
-      e12: 6.6e-43
-      e13: 6.6e-43
-      e20: -1.3394064e-10
-      e21: -4.9117685e-28
-      e22: -2.0325079e-19
-      e23: 4.9226667e-10
-      e30: 4.5905e-41
-      e31: 6.63e-43
-      e32: 6.6e-43
-      e33: 6.63e-43
+      e12: 6.39e-43
+      e13: 6.39e-43
+      e20: 6.730452e-21
+      e21: -3.2455635
+      e22: 7.014396e-29
+      e23: -3.6894755e+19
+      e30: 4.5904e-41
+      e31: 6.43e-43
+      e32: 6.4e-43
+      e33: 6.42e-43
   m_TileColorArray:
   - m_RefCount: 0
     m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
@@ -973,12 +989,12 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
   - m_RefCount: 0
-    m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
+    m_Data: {r: 1.5431e-41, g: 1.5431e-41, b: 1.5431e-41, a: 1.5431e-41}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: -5, z: 0}
-  m_Size: {x: 15, y: 9, z: 1}
+  m_Origin: {x: -40, y: -15, z: 0}
+  m_Size: {x: 69, y: 23, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
