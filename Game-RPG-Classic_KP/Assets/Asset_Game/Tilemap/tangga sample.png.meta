@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 83ec2a7bcbc805541bf4cd05916cd263
+guid: a2259b50b0652c54d88c02a8e1dfd19f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -98,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,95 +110,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gentle forest v01_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54870407ab3a97d4aa9aa58f9dab01a1
-      internalID: -1067945720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e71f99ffdcaf5449bab5ee1f81407e5
-      internalID: -224240649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0012272c5a90cf41b8ace33b5375ed4
-      internalID: -1483361381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 246baad88913b5145a3c7702af239a54
-      internalID: 191338505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_4
+      name: tangga sample_6
       rect:
         serializedVersion: 2
         x: 128
-        y: 224
+        y: 303
         width: 32
         height: 32
       alignment: 0
@@ -208,18 +124,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa41225c0ddf52f40aa4499534ccc095
-      internalID: 870256136
+      spriteID: 423bb86a191ff7e4c8278f7f66ed6e8b
+      internalID: 1764460751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_5
+      name: tangga sample_7
       rect:
         serializedVersion: 2
         x: 160
-        y: 224
+        y: 303
         width: 32
         height: 32
       alignment: 0
@@ -229,18 +145,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6dabe67f479a7042b0dc5c8738b128c
-      internalID: -1720406469
+      spriteID: 1447fcf45aeb1814298be20f29a1267d
+      internalID: -1651746944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_6
+      name: tangga sample_8
       rect:
         serializedVersion: 2
         x: 192
-        y: 224
+        y: 303
         width: 32
         height: 32
       alignment: 0
@@ -250,18 +166,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40c7897bb0e63ef42919fe384052b891
-      internalID: -2001282519
+      spriteID: 9446217339ad3ac45be0981d5eea88db
+      internalID: 756239226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_7
+      name: tangga sample_9
       rect:
         serializedVersion: 2
         x: 224
-        y: 224
+        y: 303
         width: 32
         height: 32
       alignment: 0
@@ -271,18 +187,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91bd63fdc1d5a6c47b75fa334637cb3e
-      internalID: -2037984274
+      spriteID: 41e4483c3768b334cb729f9a97212dca
+      internalID: -843043022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_8
+      name: tangga sample_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 256
+        y: 303
         width: 32
         height: 32
       alignment: 0
@@ -292,18 +208,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 763860dfd3ae9954aa31dcce7f9c94ac
-      internalID: 1321474787
+      spriteID: 5b3bd9be1a1a0a747b3b118b91994bbf
+      internalID: 1168368034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_9
+      name: tangga sample_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c51a2df9fdaf849900a5ed688dacb9
+      internalID: 559653375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdc0a60d5f32de40a52464d8bbece24
+      internalID: -327595233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3422997e118092a46bfb4716c60e5586
+      internalID: -780361916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_15
       rect:
         serializedVersion: 2
         x: 32
-        y: 192
+        y: 271
         width: 32
         height: 32
       alignment: 0
@@ -313,18 +292,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c14f5f8b460aa254cb23f4f9bdec82e3
-      internalID: -1866281185
+      spriteID: b0abf1d4eae68d144924678bdef5997c
+      internalID: -324647032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_10
+      name: tangga sample_16
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 271
         width: 32
         height: 32
       alignment: 0
@@ -334,18 +313,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 576eaa246e064e64b868ef788d76b37f
-      internalID: -229260040
+      spriteID: a11d9b81ba3660f45af46d5150a4f0f5
+      internalID: 2048406405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_11
+      name: tangga sample_17
       rect:
         serializedVersion: 2
         x: 96
-        y: 192
+        y: 271
         width: 32
         height: 32
       alignment: 0
@@ -355,18 +334,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cf72bef9145ad54c9b6adcc4ae23e43
-      internalID: -1939720247
+      spriteID: a235c48258834124f85373848fe86cf1
+      internalID: 392572956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_12
+      name: tangga sample_18
       rect:
         serializedVersion: 2
         x: 128
-        y: 192
+        y: 271
         width: 32
         height: 32
       alignment: 0
@@ -376,18 +355,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1762444ecbe840b47a5d27bc598222fe
-      internalID: -1875066569
+      spriteID: 69d2e87e78a0270439da8b8c71309115
+      internalID: 464154185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_13
+      name: tangga sample_19
       rect:
         serializedVersion: 2
         x: 160
-        y: 192
+        y: 271
         width: 32
         height: 32
       alignment: 0
@@ -397,18 +376,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe974abb69ea29745b097c1ce986111d
-      internalID: -1476284630
+      spriteID: ef543d7d10429f94089369df5b519425
+      internalID: 1092286282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_14
+      name: tangga sample_20
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
+        y: 271
         width: 32
         height: 32
       alignment: 0
@@ -418,18 +397,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c973af6abfac3364f88096648eb3a1e5
-      internalID: -1475512516
+      spriteID: 9f59a5d081b038242952607b01bd1c36
+      internalID: -348392673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_15
+      name: tangga sample_21
       rect:
         serializedVersion: 2
         x: 224
-        y: 192
+        y: 271
         width: 32
         height: 32
       alignment: 0
@@ -439,178 +418,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10a80bd0b7ee8414b9acf340e078a371
-      internalID: -1278265297
+      spriteID: 06396dc72282b9345ba335d23e930f13
+      internalID: 1747278016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_16
+      name: tangga sample_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -13, y: 9}
-        - {x: -13, y: -16}
-        - {x: -1, y: -16}
-        - {x: -1, y: 0}
-        - {x: 16, y: 0}
-        - {x: 16, y: 9}
-      tessellationDetail: 0
-      bones: []
-      spriteID: d31985a7902d0924bb271c682f45bfad
-      internalID: -1974948195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_17
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: 2.3727264, y: 11}
-        - {x: -16, y: 11}
-        - {x: -16, y: 2}
-        - {x: -7, y: 2}
-        - {x: 1, y: 1}
-        - {x: 2, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: -10.101822}
-        - {x: 11, y: -8}
-        - {x: 11, y: -3}
-        - {x: 11, y: 3}
-        - {x: 8, y: 7}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 281db65634c7a9348b7e7ba3973c9746
-      internalID: 893525216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_18
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 11}
-        - {x: -16, y: 0}
-        - {x: 16, y: 0}
-        - {x: 16, y: 11}
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3a41ceb7ad742446832f2d60a140464
-      internalID: -680333777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_19
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 144
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -12, y: 16}
-        - {x: -12, y: -16}
-        - {x: -1, y: -16}
-        - {x: -1, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: e17dbf29b072df845b58133b201a82a8
-      internalID: 149966190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_20
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 144
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: 1, y: 16}
-        - {x: 1, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97ab9383b94a9ef409346e1b6244d565
-      internalID: -1273234408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_21
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 0}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f70d68504d7f71408adb5a13f1104e9
-      internalID: 316846775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_22
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 160
+        x: 256
+        y: 271
         width: 32
         height: 32
       alignment: 0
@@ -620,18 +439,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bacb2293300b134cba542dffdffd394
-      internalID: 1681522967
+      spriteID: c7f9be93be7f47943afc074ce0218079
+      internalID: -1237655690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_23
+      name: tangga sample_23
       rect:
         serializedVersion: 2
-        x: 224
-        y: 160
+        x: 288
+        y: 271
         width: 32
         height: 32
       alignment: 0
@@ -641,72 +460,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d6f595a898e61418c27d6160d9e28b
-      internalID: -883919618
+      spriteID: 5913faaa540396245a043a3c56e72cec
+      internalID: 1823265928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_24
+      name: tangga sample_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 320
+        y: 271
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -12, y: 16}
-        - {x: -12, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -1}
-        - {x: -1, y: 0}
-        - {x: -1, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20dac9dfad5e7694da4365ba09c83496
-      internalID: -953178215
+      spriteID: e4bcf41e67a1337478f712974389f9e8
+      internalID: 1314984687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_25
+      name: tangga sample_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 271
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df08c02dd6c96f74a9b0955c1cbc233b
+      internalID: -2142570265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_27
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 239
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 2, y: 16}
-        - {x: 1, y: 0}
-        - {x: -16, y: -1}
-        - {x: -16, y: -16}
-        - {x: 14, y: -16}
-        - {x: 13, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a512360d1850cc4496dcfda508c9735
-      internalID: 262779816
+      spriteID: c9ef8636a84fa0643abb0651e9555d9b
+      internalID: -1923222217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_26
+      name: tangga sample_28
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 239
         width: 32
         height: 32
       alignment: 0
@@ -716,18 +544,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a28afdb8a5a510449d89cb140a51e34
-      internalID: 968575560
+      spriteID: ae608645f77587f46b08d1ab87af24ea
+      internalID: 927573371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_27
+      name: tangga sample_29
       rect:
         serializedVersion: 2
         x: 96
-        y: 128
+        y: 239
         width: 32
         height: 32
       alignment: 0
@@ -737,18 +565,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcbea5d4dbc27b6409bf3198a6a58ace
-      internalID: -419826988
+      spriteID: 79bcd54198d8933409c7d9947727b90a
+      internalID: 155679957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_28
+      name: tangga sample_30
       rect:
         serializedVersion: 2
         x: 128
-        y: 128
+        y: 239
         width: 32
         height: 32
       alignment: 0
@@ -758,18 +586,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39cf8519093cfeb4698b9d991121fffe
-      internalID: 1448419032
+      spriteID: 0ad8c263000048f49bf2656124fed695
+      internalID: -1181873017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_29
+      name: tangga sample_31
       rect:
         serializedVersion: 2
         x: 160
-        y: 128
+        y: 239
         width: 32
         height: 32
       alignment: 0
@@ -779,39 +607,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9909ad243190f8d4e8db6eed619822ef
-      internalID: -2074062970
+      spriteID: b9b2ea3662b8bda4ba70469c2d76fcf9
+      internalID: 760810084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_30
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e7beccb11c86214f8907b049281d83e
-      internalID: 710959711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_31
+      name: tangga sample_33
       rect:
         serializedVersion: 2
         x: 224
-        y: 128
+        y: 239
         width: 32
         height: 32
       alignment: 0
@@ -821,18 +628,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90397775822fb1d4a989e2d587097198
-      internalID: -398097857
+      spriteID: d066a813bebc83b44853ad9fbafc867c
+      internalID: 129620589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_32
+      name: tangga sample_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 256
+        y: 239
         width: 32
         height: 32
       alignment: 0
@@ -842,18 +649,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 384c35d4130fe5647babd5d15ee990de
-      internalID: -62748688
+      spriteID: 2a8b707d0e5532143a7b8008c2898e3e
+      internalID: -71293615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_33
+      name: tangga sample_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 239
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0deca8c5799bc4e95c26e44e8a846f
+      internalID: -1612941496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 239
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caec3f8537a07d7448e6cbd497bb9592
+      internalID: -911466206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_37
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 239
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd8bfaab6e760340aceca908b1dd94b
+      internalID: 1904330628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_39
       rect:
         serializedVersion: 2
         x: 32
-        y: 96
+        y: 207
         width: 32
         height: 32
       alignment: 0
@@ -863,18 +733,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21d260fb87cd14348a1b29ee377ad0f8
-      internalID: -1073439575
+      spriteID: 2c285c6ad594caa46bf0bb34d8b837c4
+      internalID: 844645636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_34
+      name: tangga sample_40
       rect:
         serializedVersion: 2
         x: 64
-        y: 96
+        y: 207
         width: 32
         height: 32
       alignment: 0
@@ -884,18 +754,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c766663d536f55448dafe158475c0fb
-      internalID: -917752165
+      spriteID: d4d740ac7604e8747a7ea2a3b956f209
+      internalID: 1400525254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_35
+      name: tangga sample_41
       rect:
         serializedVersion: 2
         x: 96
-        y: 96
+        y: 207
         width: 32
         height: 32
       alignment: 0
@@ -905,18 +775,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cf959e9bd11dc0428ad6c105bd55e01
-      internalID: 323434370
+      spriteID: df070a6df9143a94496f56a120063415
+      internalID: -322820912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_36
+      name: tangga sample_42
       rect:
         serializedVersion: 2
         x: 128
-        y: 96
+        y: 207
         width: 32
         height: 32
       alignment: 0
@@ -926,18 +796,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c75808a8ea8d75489d7b3f73b6b8bd3
-      internalID: 1274811564
+      spriteID: e5b6345767d3ae643b586cdfead84e3f
+      internalID: 1080208969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_37
+      name: tangga sample_43
       rect:
         serializedVersion: 2
         x: 160
-        y: 96
+        y: 207
         width: 32
         height: 32
       alignment: 0
@@ -947,39 +817,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17acb3ed98acd9d4b8857047efe97bc7
-      internalID: -721085539
+      spriteID: 18d43fcfa3469da41a9aefadcc21711d
+      internalID: 85737262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_38
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc4c7635e5609af478bb685065ca5dd4
-      internalID: -105019089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_39
+      name: tangga sample_45
       rect:
         serializedVersion: 2
         x: 224
-        y: 96
+        y: 207
         width: 32
         height: 32
       alignment: 0
@@ -989,18 +838,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ba4a73780af3dd498d6383b122cc911
-      internalID: 1907098768
+      spriteID: 94d36094f4f1db0428594fb38d7987c6
+      internalID: 1718433832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_40
+      name: tangga sample_46
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 256
+        y: 207
         width: 32
         height: 32
       alignment: 0
@@ -1010,18 +859,228 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d6469c118053f459cbbc420bf6c31d
-      internalID: 44297899
+      spriteID: 7a27903ce2514954d8fd5aeaff4a5593
+      internalID: -1428848173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_41
+      name: tangga sample_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564304d17acba6943a6eb61f8bfad969
+      internalID: 716908849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_48
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa07333a9fe0e0489095edc091f60e9
+      internalID: -215043426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_49
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d03eb2db71742543a39bed88ba487a8
+      internalID: 895073297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3892dff6877d20047b11de3120ad220f
+      internalID: -1338294634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1391414f7674fd418eabe5db784cd91
+      internalID: 323410899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c211c616516a94493e159f751bf6eb
+      internalID: 1407267042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da1b68967fd06642bdfcd334b93d42e
+      internalID: 1061700609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89f3c6498e05e7479569051083e93ee
+      internalID: -1314984699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ad601099f28504d9801dffd1073a7b
+      internalID: 113733145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_58
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e32b90e806fd84e9f7f7a724be4ec6
+      internalID: 893014739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_60
       rect:
         serializedVersion: 2
         x: 32
-        y: 64
+        y: 143
         width: 32
         height: 32
       alignment: 0
@@ -1031,18 +1090,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ddac79e78f787940b210c8011d5b039
-      internalID: -762211405
+      spriteID: 61c07a020568c92478e57eb90c58a27a
+      internalID: -1083711235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_42
+      name: tangga sample_61
       rect:
         serializedVersion: 2
         x: 64
-        y: 64
+        y: 143
         width: 32
         height: 32
       alignment: 0
@@ -1052,18 +1111,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5661e717f569b85438cd0b7ddd5d18f5
-      internalID: 1733473404
+      spriteID: 94e456f84f6c68b48846a98a23cde40b
+      internalID: 104751539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_43
+      name: tangga sample_62
       rect:
         serializedVersion: 2
         x: 96
-        y: 64
+        y: 143
         width: 32
         height: 32
       alignment: 0
@@ -1073,18 +1132,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef779a8754db98747b3d9dc975de33c0
-      internalID: -2126877977
+      spriteID: f5a575bdc5ea59449866e1b748e159b7
+      internalID: 1312352198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_44
+      name: tangga sample_63
       rect:
         serializedVersion: 2
         x: 128
-        y: 64
+        y: 143
         width: 32
         height: 32
       alignment: 0
@@ -1094,18 +1153,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215a25de5f6843b4fb32a835f5c18f15
-      internalID: 1888078819
+      spriteID: 75b5dd01d8fc6d1478ba575a02c41c98
+      internalID: -968132299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_45
+      name: tangga sample_64
       rect:
         serializedVersion: 2
         x: 160
-        y: 64
+        y: 143
         width: 32
         height: 32
       alignment: 0
@@ -1115,39 +1174,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af9a5cb7bea927e4eb9ccab1b22c3c5b
-      internalID: -978523948
+      spriteID: 7d3955fa22189fd40912d04f247eed8e
+      internalID: -1644965469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_46
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a3602d86923c554a8f2685a130f81c0
-      internalID: 1084806678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gentle forest v01_47
+      name: tangga sample_66
       rect:
         serializedVersion: 2
         x: 224
-        y: 64
+        y: 143
         width: 32
         height: 32
       alignment: 0
@@ -1157,18 +1195,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54f8ba35ee6952444a5b0073879e89aa
-      internalID: -1406528349
+      spriteID: 2d3ca9f4d3aab10478a6638f18a298e3
+      internalID: 23797309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_48
+      name: tangga sample_67
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 256
+        y: 143
         width: 32
         height: 32
       alignment: 0
@@ -1178,18 +1216,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a31f8ab54d7b147b8e192ef009c8bf
-      internalID: 478063197
+      spriteID: de81ea80c988e664794576f9546116be
+      internalID: -1674845685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_49
+      name: tangga sample_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94aec499794c0bd4f92f289bd12e8d77
+      internalID: -2114641412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc9e0d69a41ca74c815abd5763303cc
+      internalID: -621744543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54893d53bf86cdc4d8f616e9723092e9
+      internalID: 296974740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab674bf9282a35440bd4bf5e3d476c50
+      internalID: 2133416787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_73
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 111
         width: 32
         height: 32
       alignment: 0
@@ -1199,18 +1321,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdeca5ddc63e21948ba36ed1fe7d9949
-      internalID: -1993422217
+      spriteID: 880b8636aa9145b459b86dd5c685f9ce
+      internalID: -661442705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_50
+      name: tangga sample_74
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
+        y: 111
         width: 32
         height: 32
       alignment: 0
@@ -1220,18 +1342,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28dcaa6864e7a2a49baa730937120452
-      internalID: -2003638430
+      spriteID: ed1107092df4c6745be005eddc051d5d
+      internalID: 67223600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_51
+      name: tangga sample_75
       rect:
         serializedVersion: 2
         x: 96
-        y: 32
+        y: 111
         width: 32
         height: 32
       alignment: 0
@@ -1241,18 +1363,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e2e693cc1af2a74da3cf3536eec36ef
-      internalID: -670793955
+      spriteID: e7b9057ab0aa02443b8d511926fcf69d
+      internalID: -412313072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_52
+      name: tangga sample_76
       rect:
         serializedVersion: 2
         x: 128
-        y: 32
+        y: 111
         width: 32
         height: 32
       alignment: 0
@@ -1262,18 +1384,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97f15bad65e1ebd45bc174eddd11e396
-      internalID: 1989249575
+      spriteID: 5545ced66ffd2014a91b29b904a0c828
+      internalID: 11917229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_53
+      name: tangga sample_77
       rect:
         serializedVersion: 2
         x: 160
-        y: 32
+        y: 111
         width: 32
         height: 32
       alignment: 0
@@ -1283,18 +1405,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c2c98f820552b24ebf7f4e05284a72f
-      internalID: 876790833
+      spriteID: 9f48d519627e54f4294935ba9be5232f
+      internalID: 3169672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_54
+      name: tangga sample_78
       rect:
         serializedVersion: 2
         x: 192
-        y: 32
+        y: 111
         width: 32
         height: 32
       alignment: 0
@@ -1304,18 +1426,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d17093bf5c611324a91aaadb53589a34
-      internalID: -1673903445
+      spriteID: f946e8edfe221944cbc1087db2a872b6
+      internalID: -1525894629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_55
+      name: tangga sample_79
       rect:
         serializedVersion: 2
         x: 224
-        y: 32
+        y: 111
         width: 32
         height: 32
       alignment: 0
@@ -1325,18 +1447,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aad5a0f936c666140b98406762c42643
-      internalID: 773771903
+      spriteID: dd0135a80dae1dd4eb23de9fd0de7868
+      internalID: 417197282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_56
+      name: tangga sample_80
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 256
+        y: 111
         width: 32
         height: 32
       alignment: 0
@@ -1346,18 +1468,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b913b6766cab86499e1d86a9145ebd0
-      internalID: -846609794
+      spriteID: f61d9adf9e5d4ee40a431b8809429fbe
+      internalID: -1178656790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_57
+      name: tangga sample_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceae8a03a29e7704e9bf3fe4b7dccc88
+      internalID: 1639215163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaa49f4c49efe844a5a7db87f477846
+      internalID: -51393056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55ee826ffbe79d4d9f0f5dd9cc46c52
+      internalID: 2010517988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2cecc6f55a2d342be5100dc4ced208
+      internalID: 1304908093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_86
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1367,18 +1573,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2517e4074140594ab73b2da3587b28a
-      internalID: -953756056
+      spriteID: 7aede802bf707d64582bde41ec80a999
+      internalID: 1053148047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_58
+      name: tangga sample_87
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1388,18 +1594,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c65e83eec353bf84aa3cbd5430d71ba1
-      internalID: -1978916639
+      spriteID: 1db2db6dc4743df4e9bbd353e1203577
+      internalID: 1580225721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_59
+      name: tangga sample_88
       rect:
         serializedVersion: 2
         x: 96
-        y: 0
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1409,18 +1615,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e71810958ddef4fbd027c008341fa1
-      internalID: 1152307072
+      spriteID: 15a18bafd97ae0e4bbfb335c11990f0b
+      internalID: 803517934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_60
+      name: tangga sample_89
       rect:
         serializedVersion: 2
         x: 128
-        y: 0
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1430,18 +1636,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a2f95a77120574e96414d01ee69802
-      internalID: -1024966225
+      spriteID: 616827830b3d72a44b981f1c012af200
+      internalID: 566031082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_61
+      name: tangga sample_90
       rect:
         serializedVersion: 2
         x: 160
-        y: 0
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1451,18 +1657,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f0ca71ac6c2c9e4fb8d8bb46f949368
-      internalID: 1545032140
+      spriteID: 61475d7f0a1bf8f46982b9bd32d71703
+      internalID: -622808493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_62
+      name: tangga sample_91
       rect:
         serializedVersion: 2
         x: 192
-        y: 0
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1472,18 +1678,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb43550134bd11b47a1b4f43135c9d00
-      internalID: 2033102693
+      spriteID: 003e75bb5cccf9a4b8f9bc20f1a7e8b4
+      internalID: 1934350493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_63
+      name: tangga sample_92
       rect:
         serializedVersion: 2
         x: 224
-        y: 0
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1493,18 +1699,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dbd791fb26411049a2c872c21c20378
-      internalID: 1243624724
+      spriteID: b3eacde54a46b684dba10c86addc09d8
+      internalID: -1924491424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_64
+      name: tangga sample_93
       rect:
         serializedVersion: 2
-        x: 16
-        y: 208
+        x: 256
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1514,18 +1720,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c40564cb65fa67943ba812ad6eef7848
-      internalID: -370531685
+      spriteID: d04f167426b95b14ba1abea7c1a98a0f
+      internalID: -1872172664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_65
+      name: tangga sample_94
       rect:
         serializedVersion: 2
-        x: 16
-        y: 192
+        x: 288
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1535,18 +1741,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60f8bd082f1aac5429d64d82f9488a1c
-      internalID: -237469927
+      spriteID: fe98f36d6b8860e4593eaf48c42b41df
+      internalID: -1188785032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_66
+      name: tangga sample_95
       rect:
         serializedVersion: 2
-        x: 0
-        y: 208
+        x: 320
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1556,18 +1762,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb4ea1751d4f0084db502fbc35c854f3
-      internalID: 948262856
+      spriteID: 6b171213fd5759b48a4d2a7994894289
+      internalID: 1046338888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_67
+      name: tangga sample_96
       rect:
         serializedVersion: 2
-        x: 32
-        y: 208
+        x: 352
+        y: 79
         width: 32
         height: 32
       alignment: 0
@@ -1577,18 +1783,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10846afb00849b547a322f0544428e1b
-      internalID: -262107662
+      spriteID: 953742e1d61ba6b42a4785dc451407e9
+      internalID: 44214966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gentle forest v01_68
+      name: tangga sample_97
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
+        x: 192
+        y: 47
         width: 32
         height: 32
       alignment: 0
@@ -1598,8 +1804,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d691067c6458e024dbcb34bbae84b211
-      internalID: 1041594828
+      spriteID: 3217fea6c7dd4e843ad00699eb17aea9
+      internalID: -143650670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_98
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1c2049336d6d445af56607a631891e
+      internalID: 232482474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_99
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44af8429e2d95e84cab3a64ada20b576
+      internalID: 1700812939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_100
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca277196f13f10843954ec764769d160
+      internalID: 2042337840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ce964a14086aa429c57ad30d3cb62a
+      internalID: 1884045863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_102
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bf6e347e4fc9b43b8fa6d074ce7be3
+      internalID: -1846007412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_104
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de54fae33c236c148a7c51cce227f8e8
+      internalID: 294175052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tangga sample_105
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6c24827e447564b91361bb8c9a4369
+      internalID: -94932069
       vertices: []
       indices: 
       edges: []
@@ -1615,75 +1968,112 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      gentle forest v01_0: -1067945720
-      gentle forest v01_1: -224240649
-      gentle forest v01_10: -229260040
-      gentle forest v01_11: -1939720247
-      gentle forest v01_12: -1875066569
-      gentle forest v01_13: -1476284630
-      gentle forest v01_14: -1475512516
-      gentle forest v01_15: -1278265297
-      gentle forest v01_16: -1974948195
-      gentle forest v01_17: 893525216
-      gentle forest v01_18: -680333777
-      gentle forest v01_19: 149966190
-      gentle forest v01_2: -1483361381
-      gentle forest v01_20: -1273234408
-      gentle forest v01_21: 316846775
-      gentle forest v01_22: 1681522967
-      gentle forest v01_23: -883919618
-      gentle forest v01_24: -953178215
-      gentle forest v01_25: 262779816
-      gentle forest v01_26: 968575560
-      gentle forest v01_27: -419826988
-      gentle forest v01_28: 1448419032
-      gentle forest v01_29: -2074062970
-      gentle forest v01_3: 191338505
-      gentle forest v01_30: 710959711
-      gentle forest v01_31: -398097857
-      gentle forest v01_32: -62748688
-      gentle forest v01_33: -1073439575
-      gentle forest v01_34: -917752165
-      gentle forest v01_35: 323434370
-      gentle forest v01_36: 1274811564
-      gentle forest v01_37: -721085539
-      gentle forest v01_38: -105019089
-      gentle forest v01_39: 1907098768
-      gentle forest v01_4: 870256136
-      gentle forest v01_40: 44297899
-      gentle forest v01_41: -762211405
-      gentle forest v01_42: 1733473404
-      gentle forest v01_43: -2126877977
-      gentle forest v01_44: 1888078819
-      gentle forest v01_45: -978523948
-      gentle forest v01_46: 1084806678
-      gentle forest v01_47: -1406528349
-      gentle forest v01_48: 478063197
-      gentle forest v01_49: -1993422217
-      gentle forest v01_5: -1720406469
-      gentle forest v01_50: -2003638430
-      gentle forest v01_51: -670793955
-      gentle forest v01_52: 1989249575
-      gentle forest v01_53: 876790833
-      gentle forest v01_54: -1673903445
-      gentle forest v01_55: 773771903
-      gentle forest v01_56: -846609794
-      gentle forest v01_57: -953756056
-      gentle forest v01_58: -1978916639
-      gentle forest v01_59: 1152307072
-      gentle forest v01_6: -2001282519
-      gentle forest v01_60: -1024966225
-      gentle forest v01_61: 1545032140
-      gentle forest v01_62: 2033102693
-      gentle forest v01_63: 1243624724
-      gentle forest v01_64: -370531685
-      gentle forest v01_65: -237469927
-      gentle forest v01_66: 948262856
-      gentle forest v01_67: -262107662
-      gentle forest v01_68: 1041594828
-      gentle forest v01_7: -2037984274
-      gentle forest v01_8: 1321474787
-      gentle forest v01_9: -1866281185
+      tangga sample_0: 470019131
+      tangga sample_1: -1427356480
+      tangga sample_10: 1168368034
+      tangga sample_100: 2042337840
+      tangga sample_101: 1884045863
+      tangga sample_102: -1846007412
+      tangga sample_103: 403714047
+      tangga sample_104: 294175052
+      tangga sample_105: -94932069
+      tangga sample_11: 559653375
+      tangga sample_12: -327595233
+      tangga sample_13: -780361916
+      tangga sample_14: 189460349
+      tangga sample_15: -324647032
+      tangga sample_16: 2048406405
+      tangga sample_17: 392572956
+      tangga sample_18: 464154185
+      tangga sample_19: 1092286282
+      tangga sample_2: -1619516313
+      tangga sample_20: -348392673
+      tangga sample_21: 1747278016
+      tangga sample_22: -1237655690
+      tangga sample_23: 1823265928
+      tangga sample_24: 1314984687
+      tangga sample_25: -2142570265
+      tangga sample_26: -1225263885
+      tangga sample_27: -1923222217
+      tangga sample_28: 927573371
+      tangga sample_29: 155679957
+      tangga sample_3: 1395537453
+      tangga sample_30: -1181873017
+      tangga sample_31: 760810084
+      tangga sample_32: -940417653
+      tangga sample_33: 129620589
+      tangga sample_34: -71293615
+      tangga sample_35: -1612941496
+      tangga sample_36: -911466206
+      tangga sample_37: 1904330628
+      tangga sample_38: 875901866
+      tangga sample_39: 844645636
+      tangga sample_4: -1739909129
+      tangga sample_40: 1400525254
+      tangga sample_41: -322820912
+      tangga sample_42: 1080208969
+      tangga sample_43: 85737262
+      tangga sample_44: -373539885
+      tangga sample_45: 1718433832
+      tangga sample_46: -1428848173
+      tangga sample_47: 716908849
+      tangga sample_48: -215043426
+      tangga sample_49: 895073297
+      tangga sample_5: 1591459073
+      tangga sample_50: -1338294634
+      tangga sample_51: 323410899
+      tangga sample_52: 1407267042
+      tangga sample_53: -1152458170
+      tangga sample_54: -71244130
+      tangga sample_55: 1061700609
+      tangga sample_56: -1314984699
+      tangga sample_57: 113733145
+      tangga sample_58: 893014739
+      tangga sample_59: -1734301010
+      tangga sample_6: 1764460751
+      tangga sample_60: -1083711235
+      tangga sample_61: 104751539
+      tangga sample_62: 1312352198
+      tangga sample_63: -968132299
+      tangga sample_64: -1644965469
+      tangga sample_65: -2014215355
+      tangga sample_66: 23797309
+      tangga sample_67: -1674845685
+      tangga sample_68: -2114641412
+      tangga sample_69: -621744543
+      tangga sample_7: -1651746944
+      tangga sample_70: 296974740
+      tangga sample_71: 2133416787
+      tangga sample_72: -1015342187
+      tangga sample_73: -661442705
+      tangga sample_74: 67223600
+      tangga sample_75: -412313072
+      tangga sample_76: 11917229
+      tangga sample_77: 3169672
+      tangga sample_78: -1525894629
+      tangga sample_79: 417197282
+      tangga sample_8: 756239226
+      tangga sample_80: -1178656790
+      tangga sample_81: 1639215163
+      tangga sample_82: -51393056
+      tangga sample_83: 2010517988
+      tangga sample_84: 1304908093
+      tangga sample_85: -1224228757
+      tangga sample_86: 1053148047
+      tangga sample_87: 1580225721
+      tangga sample_88: 803517934
+      tangga sample_89: 566031082
+      tangga sample_9: -843043022
+      tangga sample_90: -622808493
+      tangga sample_91: 1934350493
+      tangga sample_92: -1924491424
+      tangga sample_93: -1872172664
+      tangga sample_94: -1188785032
+      tangga sample_95: 1046338888
+      tangga sample_96: 44214966
+      tangga sample_97: -143650670
+      tangga sample_98: 232482474
+      tangga sample_99: 1700812939
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
