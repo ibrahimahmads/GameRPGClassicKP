@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 853486679600799562}
   - component: {fileID: 1484884821712658689}
   - component: {fileID: 5626329415117338}
+  - component: {fileID: -3118674457882303329}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -72,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -455526921
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -7697508495201233784, guid: 553dce0baa5df974db7a97082c65a0d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -118,8 +119,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.114758246, y: 1.8024266}
-  m_Size: {x: 3.070426, y: 2.0442603}
+  m_Offset: {x: 0.030191418, y: 0.93164074}
+  m_Size: {x: 3.8413746, y: 3.785934}
   m_Direction: 1
 --- !u!95 &5626329415117338
 Animator:
@@ -142,3 +143,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3118674457882303329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840094642058756229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676ab4c1efc78f54cb89df795c23a16c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
