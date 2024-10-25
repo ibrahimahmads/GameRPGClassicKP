@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: grast-forest
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: -727131999, guid: 6f10f708c1a5bc44f9b10006c0cd0575, type: 3}
+  m_DefaultSprite: {fileID: -282775184, guid: 82399ef8a41a4d6448506174c79b3c7b, type: 3}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_TilingRules:

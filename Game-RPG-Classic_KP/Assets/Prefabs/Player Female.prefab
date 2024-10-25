@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 597737510831904219}
   - component: {fileID: 506622666404557313}
   - component: {fileID: -363064951170665473}
+  - component: {fileID: 3840557174369832513}
   m_Layer: 0
   m_Name: Player Female
   m_TagString: Player
@@ -79,8 +80,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -455526921
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 135127628, guid: 1dc8ea28369f9b9469b23879a28a197d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -176,6 +177,7 @@ MonoBehaviour:
   attackPointLeft: {fileID: 1268169636866545446}
   attackPointUp: {fileID: 4198093250389163581}
   attackPointDown: {fileID: 2076604873106387604}
+  attackCooldown: 0.1
 --- !u!95 &506622666404557313
 Animator:
   serializedVersion: 5
@@ -213,12 +215,25 @@ MonoBehaviour:
   curHp: 0
   damage: 35
   defend: 0
+  luck: 0
   level: 1
   curExp: 0
   maxExp: 20
   hpBar: {fileID: 0}
   expBar: {fileID: 0}
   lvlText: {fileID: 0}
+--- !u!114 &3840557174369832513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523268034042342359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676ab4c1efc78f54cb89df795c23a16c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1268169636866545446
 GameObject:
   m_ObjectHideFlags: 0
