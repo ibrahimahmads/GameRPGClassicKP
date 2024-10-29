@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 1f;
     private PlayerControls playerControls;
+    private SpriteRenderer spriteRenderer;
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
@@ -31,6 +32,7 @@ public class PlayerController : MonoBehaviour
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         attackPointRight.SetActive(false);
         attackPointLeft.SetActive(false);
@@ -58,6 +60,10 @@ public class PlayerController : MonoBehaviour
         if (!isPaused) // Cek jika permainan tidak sedang pause
         {
             move();
+        }
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.sortingOrder = Mathf.RoundToInt(-transform.position.y * 100);
         }
     }
 
