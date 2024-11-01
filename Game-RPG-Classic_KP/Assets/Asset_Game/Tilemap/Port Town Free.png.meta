@@ -113,12 +113,12 @@ TextureImporter:
       name: Port Town Free_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 216
-        width: 60
-        height: 60
+        x: 26
+        y: 256
+        width: 28
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 64
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +181,7 @@ TextureImporter:
         width: 64
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +202,7 @@ TextureImporter:
         width: 60
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +223,7 @@ TextureImporter:
         width: 60
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,7 +244,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,7 +265,7 @@ TextureImporter:
         width: 32
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,7 +286,7 @@ TextureImporter:
         width: 12
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,7 +307,7 @@ TextureImporter:
         width: 32
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,10 +328,14 @@ TextureImporter:
         width: 25
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -11.5, y: 1.5}
+        - {x: -11.5, y: -11.5}
+        - {x: 11.5, y: -11.5}
+        - {x: 11.5, y: 1.5}
       tessellationDetail: 0
       bones: []
       spriteID: 9f6007388ccc5bf4f8c68d375df21b4d
@@ -349,7 +353,7 @@ TextureImporter:
         width: 10
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,7 +374,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -391,7 +395,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -412,7 +416,7 @@ TextureImporter:
         width: 12
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -433,7 +437,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -454,7 +458,7 @@ TextureImporter:
         width: 11
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -475,10 +479,14 @@ TextureImporter:
         width: 6
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -2, y: 8.5}
+        - {x: -2, y: -8.5}
+        - {x: 3, y: -8.5}
+        - {x: 3, y: 8.5}
       tessellationDetail: 0
       bones: []
       spriteID: 29b2d33fded245d4e8e5f0e140cbb646
@@ -496,10 +504,14 @@ TextureImporter:
         width: 6
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 2, y: -8.5}
+        - {x: 2, y: 8.5}
+        - {x: -3, y: 8.5}
+        - {x: -3, y: -8.5}
       tessellationDetail: 0
       bones: []
       spriteID: 6231c9f3d9f6de54882e41b2d0ffa767
@@ -517,7 +529,7 @@ TextureImporter:
         width: 28
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -538,10 +550,14 @@ TextureImporter:
         width: 4
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -2, y: 8.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 2, y: 8.5}
       tessellationDetail: 0
       bones: []
       spriteID: f9aca3e53a8d17244882608689baf391
@@ -559,10 +575,14 @@ TextureImporter:
         width: 4
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -2, y: 8.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 2, y: 8.5}
       tessellationDetail: 0
       bones: []
       spriteID: bb7600156f146fc4da084c1c014e2c72
@@ -580,7 +600,7 @@ TextureImporter:
         width: 28
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -601,7 +621,7 @@ TextureImporter:
         width: 16
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -622,7 +642,7 @@ TextureImporter:
         width: 44
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -643,7 +663,7 @@ TextureImporter:
         width: 12
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -664,10 +684,14 @@ TextureImporter:
         width: 16
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 0.5}
+        - {x: -8, y: -4.5}
+        - {x: 8, y: -4.5}
+        - {x: 8, y: 0.5}
       tessellationDetail: 0
       bones: []
       spriteID: cf8f1baeb33044540a52347cc05ed7cd
@@ -677,18 +701,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Port Town Free_27
+      name: Port Town Free_45
       rect:
         serializedVersion: 2
         x: 36
-        y: 35
-        width: 40
-        height: 21
+        y: 45
+        width: 14
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7, y: 5.5}
+        - {x: -7, y: -5.5}
+        - {x: -4, y: -5.5}
+        - {x: -4, y: 5.5}
       tessellationDetail: 0
       bones: []
       spriteID: 01979b0b982c5ee4497d0ec6b1f9bd54
@@ -706,10 +734,14 @@ TextureImporter:
         width: 14
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7, y: -5.5}
+        - {x: -7, y: -15.5}
+        - {x: 7, y: -15.5}
+        - {x: 7, y: -5.5}
       tessellationDetail: 0
       bones: []
       spriteID: 6db8ccc0e910adb44a7c51f3a10689b6
@@ -727,10 +759,14 @@ TextureImporter:
         width: 30
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -15, y: -1.5}
+        - {x: -15, y: -11.5}
+        - {x: 15, y: -11.5}
+        - {x: 15, y: -1.5}
       tessellationDetail: 0
       bones: []
       spriteID: 30a52297de18ed9428620506f0ece4c6
@@ -748,7 +784,7 @@ TextureImporter:
         width: 16
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -769,10 +805,18 @@ TextureImporter:
         width: 17
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8.5, y: -20}
+        - {x: -8.5, y: -24}
+        - {x: 8.5, y: -16}
+        - {x: 8.5, y: -10}
+      - - {x: -8.5, y: 6}
+        - {x: -8.5, y: 11}
+        - {x: 8.5, y: 20}
+        - {x: 8.5, y: 15}
       tessellationDetail: 0
       bones: []
       spriteID: 6edb1a66ee47050409c14509681e310e
@@ -790,7 +834,7 @@ TextureImporter:
         width: 15
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -811,10 +855,14 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -7, y: 2.5}
+        - {x: -7, y: -7.5}
+        - {x: 7, y: -7.5}
+        - {x: 7, y: 2.5}
       tessellationDetail: 0
       bones: []
       spriteID: 7c1027a0cebca4e44b1dc9149cefdf02
@@ -824,18 +872,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Port Town Free_34
+      name: Port Town Free_43
       rect:
         serializedVersion: 2
-        x: 44
-        y: 3
-        width: 24
-        height: 21
+        x: 45
+        y: 0
+        width: 12
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6, y: 6.5}
+        - {x: -6, y: -5.5}
+        - {x: -3, y: -5.5}
+        - {x: -3, y: 6.5}
       tessellationDetail: 0
       bones: []
       spriteID: db6810bd6926a08469c8d2506c82086f
@@ -853,7 +905,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -874,7 +926,7 @@ TextureImporter:
         width: 21
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -895,10 +947,14 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -9, y: 1.5}
+        - {x: -9, y: -12.5}
+        - {x: 9, y: -12.5}
+        - {x: 9, y: 1.5}
       tessellationDetail: 0
       bones: []
       spriteID: 76ab52ebaf74bff46be3d45f5b27b3af
@@ -916,7 +972,7 @@ TextureImporter:
         width: 15
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -924,6 +980,248 @@ TextureImporter:
       bones: []
       spriteID: b53bd1d88e26e314abdc04bd34fa5bef
       internalID: -1100186306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_39
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 13
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 6.5}
+        - {x: -6, y: -6.5}
+        - {x: -3, y: -6.5}
+        - {x: -3, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9989182d8ffbc4a8a93f393b6bf902
+      internalID: 753069208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 13
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 6.5}
+        - {x: 3, y: -6.5}
+        - {x: 6, y: -6.5}
+        - {x: 6, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a71844ee7ebb9a45a986f527cd1b9ba
+      internalID: 304682840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_44
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 6.5}
+        - {x: 3, y: -5.5}
+        - {x: 6, y: -5.5}
+        - {x: 6, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cafcf3471eb0c4aa322bfd1082bae1
+      internalID: 2109832256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_41
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 7
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 6.5}
+        - {x: -6, y: -6.5}
+        - {x: -3, y: -6.5}
+        - {x: -3, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e35c28ceee39b42a8c912644375f9e
+      internalID: 401799274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_42
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 7
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 6.5}
+        - {x: 3, y: -6.5}
+        - {x: 6, y: -6.5}
+        - {x: 6, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3c6dc4d7a8e1f4db0423c8c1c7a609
+      internalID: 1176597539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 45
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be752c62ee01634388b62914fa5e3fc
+      internalID: -844237172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 45
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 5.5}
+        - {x: 4, y: -5.5}
+        - {x: 7, y: -5.5}
+        - {x: 7, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb299ac0896776645847074c1940dd7e
+      internalID: -1250535373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 34
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 5.5}
+        - {x: -7, y: -4.5}
+        - {x: -4, y: -4.5}
+        - {x: -4, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70f244b07a28d544b6f13c7cc834a54
+      internalID: -859010975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_49
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 34
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65d70a34b9cf154b857eecbfb62bb15
+      internalID: 2138313119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Port Town Free_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 5.5}
+        - {x: 4, y: -4.5}
+        - {x: 7, y: -4.5}
+        - {x: 7, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38915bde6400de44b9ca7e597fd7148
+      internalID: 18038096
       vertices: []
       indices: 
       edges: []
@@ -959,7 +1257,7 @@ TextureImporter:
       Port Town Free_24: 939739092
       Port Town Free_25: -1324065405
       Port Town Free_26: 542811939
-      Port Town Free_27: 976035270
+      Port Town Free_27: -859010975
       Port Town Free_28: -1497529714
       Port Town Free_29: -824431537
       Port Town Free_3: 712414078
@@ -967,13 +1265,23 @@ TextureImporter:
       Port Town Free_31: 1573148438
       Port Town Free_32: 549472220
       Port Town Free_33: -650432902
-      Port Town Free_34: 348219671
       Port Town Free_35: 2146091086
       Port Town Free_36: -1220347830
       Port Town Free_37: 2038036490
       Port Town Free_38: -1100186306
+      Port Town Free_39: 753069208
       Port Town Free_4: 1969769283
+      Port Town Free_40: 304682840
+      Port Town Free_41: 401799274
+      Port Town Free_42: 1176597539
+      Port Town Free_43: 348219671
+      Port Town Free_44: 2109832256
+      Port Town Free_45: 976035270
+      Port Town Free_46: -844237172
+      Port Town Free_47: -1250535373
+      Port Town Free_49: 2138313119
       Port Town Free_5: -93621122
+      Port Town Free_50: 18038096
       Port Town Free_6: -1911543990
       Port Town Free_7: -439816060
       Port Town Free_8: 1493081012
