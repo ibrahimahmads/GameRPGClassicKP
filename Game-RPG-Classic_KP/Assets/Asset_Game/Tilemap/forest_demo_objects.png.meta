@@ -479,7 +479,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 117
-        y: 160
+        y: 191
         width: 6
         height: 16
       alignment: 0
@@ -999,6 +999,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: forest_demo_objects_43
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 177
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a746009f49efd44abed7018031ba8d
+      internalID: 1924184005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1048,6 +1069,7 @@ TextureImporter:
       forest_demo_objects_40: -1581786712
       forest_demo_objects_41: -1079115319
       forest_demo_objects_42: -90508496
+      forest_demo_objects_43: 1924184005
       forest_demo_objects_5: -612737402
       forest_demo_objects_6: -1124847051
       forest_demo_objects_7: -1658763572
