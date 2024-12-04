@@ -45,6 +45,12 @@ public class PlayerController : MonoBehaviour
         playerControls.Enable();
     }
 
+    private void OnDisable()
+    {
+        // Nonaktifkan input saat objek dihancurkan atau menjadi tidak aktif
+        playerControls.Movement.Disable();
+    }
+
     private void Update()
     {
         if (!isPaused) // Cek jika permainan tidak sedang pause

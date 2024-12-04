@@ -12,6 +12,7 @@ public class PauseMenu : MonoBehaviour
     public Slider expSlider;
     public TextMeshProUGUI textExp;
     public TextMeshProUGUI textLevel;
+    public TextMeshProUGUI textNama;
 
     void Awake()
     {
