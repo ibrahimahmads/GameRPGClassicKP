@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 851625555596604397}
   - component: {fileID: 7933442783265896208}
-  - component: {fileID: 1838232621926206354}
   - component: {fileID: 3867228111582676068}
+  - component: {fileID: 6544880575131677655}
+  - component: {fileID: -3964531375228277371}
   m_Layer: 7
   m_Name: destructible 4
   m_TagString: Untagged
@@ -86,8 +87,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &1838232621926206354
-CircleCollider2D:
+--- !u!114 &3867228111582676068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5272778841454936206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0f8d35ff1d81a4b8f6b29e88ac33d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  destructionEffect: {fileID: 8659655543837767011, guid: 834a7ae931e5e4342a759b10c769c435, type: 3}
+--- !u!70 &6544880575131677655
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -118,10 +133,10 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.49999997
---- !u!114 &3867228111582676068
+  m_Offset: {x: 0, y: -0.16712828}
+  m_Size: {x: 0.99999994, y: 1.3342566}
+  m_Direction: 0
+--- !u!114 &-3964531375228277371
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,8 +145,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5272778841454936206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f0f8d35ff1d81a4b8f6b29e88ac33d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 676ab4c1efc78f54cb89df795c23a16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
-  destructionEffect: {fileID: 8659655543837767011, guid: 834a7ae931e5e4342a759b10c769c435, type: 3}
+  updateRadius: 30
