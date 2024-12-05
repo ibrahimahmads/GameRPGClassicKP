@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1032147677139861171}
   - component: {fileID: 7633831925999766585}
-  - component: {fileID: 8785828828462333613}
   - component: {fileID: 6938156876294528120}
+  - component: {fileID: 2132366452511277532}
+  - component: {fileID: -7016436075079894813}
   m_Layer: 7
   m_Name: destructible 7
   m_TagString: Untagged
@@ -86,8 +87,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &8785828828462333613
-CircleCollider2D:
+--- !u!114 &6938156876294528120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481640199060953566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0f8d35ff1d81a4b8f6b29e88ac33d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  destructionEffect: {fileID: 8659655543837767011, guid: 39d9fd57e8fe26941aa936724e74789d, type: 3}
+--- !u!114 &2132366452511277532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481640199060953566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676ab4c1efc78f54cb89df795c23a16c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateRadius: 30
+--- !u!70 &-7016436075079894813
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -118,20 +146,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.40625
---- !u!114 &6938156876294528120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481640199060953566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f0f8d35ff1d81a4b8f6b29e88ac33d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 1
-  destructionEffect: {fileID: 8659655543837767011, guid: 39d9fd57e8fe26941aa936724e74789d, type: 3}
+  m_Offset: {x: 0, y: -0.17853212}
+  m_Size: {x: 0.6875, y: 1.1695642}
+  m_Direction: 0

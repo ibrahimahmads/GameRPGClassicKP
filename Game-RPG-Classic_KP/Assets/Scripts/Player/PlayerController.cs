@@ -22,12 +22,23 @@ public class PlayerController : MonoBehaviour
     
     public float attackCooldown = 0.1f; // Durasi cooldown
     private float lastAttackTime = 0f;
+    private AudioManager audioManager;
     
     private bool isPaused = false;
+    private bool isPlayingMoveSFX = false;
 
     private void Awake()
     {
         Instance = this;
+        GameObject audioObject = GameObject.FindGameObjectWithTag("Audio");
+        if (audioObject != null)
+        {
+            audioManager = audioObject.GetComponent<AudioManager>();
+        }
+        else
+        {
+            Debug.LogError("Object dengan tag 'Audio' tidak ditemukan!");
+        }
         playerStat = GetComponent<PlayerStat>();
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
@@ -81,6 +92,7 @@ public class PlayerController : MonoBehaviour
     private void move()
     {
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+        
     }
     
     public void SetPauseState(bool paused)
@@ -96,10 +108,21 @@ public class PlayerController : MonoBehaviour
         if (movement != Vector2.zero)
         {
             animator.SetBool("IsMoving", true);
+            if(!isPlayingMoveSFX)
+            {
+                isPlayingMoveSFX = true;     
+                audioManager.PlayLoop(0);
+            }
         }
         else
         {
             animator.SetBool("IsMoving", false);
+            if(isPlayingMoveSFX)
+            {
+                isPlayingMoveSFX = false;
+                audioManager.StopSFX();
+            }
+           
         }
     }
 
@@ -140,6 +163,7 @@ public class PlayerController : MonoBehaviour
             }
             // Trigger animasi serangan
             animator.SetTrigger("Attack");
+            audioManager.PlaySFX(1);
         }
     }
 
