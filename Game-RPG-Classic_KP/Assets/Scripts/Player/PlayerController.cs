@@ -167,10 +167,23 @@ public class PlayerController : MonoBehaviour
         if (activeAttackPoint != null)
         {
             // Detect enemies in range of attack
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(activeAttackPoint.transform.position, attackRange, enemyLayers);
-            foreach (Collider2D enemy in hitEnemies)
+            Collider2D[] hitObjects = Physics2D.OverlapCircleAll(activeAttackPoint.transform.position, attackRange, enemyLayers);
+            foreach (Collider2D obj in hitObjects)
             {
-                enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerStat.damage);
+                // Damage enemies
+                EnemyHealth enemy = obj.GetComponent<EnemyHealth>();
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(playerStat.damage);
+                    continue;
+                }
+
+                // Damage destructible items
+                Destructible destructible = obj.GetComponent<Destructible>();
+                if (destructible != null)
+                {
+                    destructible.TakeDamage(playerStat.damage);
+                }
             }
         }
     }

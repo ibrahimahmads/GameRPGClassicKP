@@ -193,6 +193,7 @@ MonoBehaviour:
   health: 100
   exp: 8
   expBar: {fileID: 1417689045429783761, guid: 9b2e63231de5fc442b48d9467ab87ed2, type: 3}
+  deathVFX: {fileID: 8659655543837767011, guid: ac2b89bcd921915458075662689bfdae, type: 3}
 --- !u!114 &7890100223875170690
 MonoBehaviour:
   m_ObjectHideFlags: 0
