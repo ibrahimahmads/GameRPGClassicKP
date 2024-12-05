@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 297531544}
   - component: {fileID: 297531543}
   - component: {fileID: 297531547}
+  - component: {fileID: 297531548}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -446,6 +447,19 @@ MonoBehaviour:
   textExp: {fileID: 426931485}
   textLevel: {fileID: 2145342626}
   textNama: {fileID: 0}
+--- !u!114 &297531548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297531542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4b8e4ef02491a41a7ecc38427dfe5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  namaScene: 
 --- !u!1 &338748211
 GameObject:
   m_ObjectHideFlags: 0
@@ -10642,7 +10656,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2146738690}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 297531548}
+        m_TargetAssemblyTypeName: PindahScene, Assembly-CSharp
+        m_MethodName: pindahkeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MainMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2146738690
 MonoBehaviour:
   m_ObjectHideFlags: 0
