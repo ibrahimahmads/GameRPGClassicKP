@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 263920674630714836}
   - component: {fileID: 5838646923046430419}
   - component: {fileID: 7487405380826489546}
-  m_Layer: 0
+  - component: {fileID: 9165342942365472184}
+  m_Layer: 7
   m_Name: destructible 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,3 +145,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRadius: 10
+--- !u!114 &9165342942365472184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9060592826372665258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0f8d35ff1d81a4b8f6b29e88ac33d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  destructionEffect: {fileID: 8659655543837767011, guid: 4d6e4f777f5f5a64496aceb861303e47, type: 3}

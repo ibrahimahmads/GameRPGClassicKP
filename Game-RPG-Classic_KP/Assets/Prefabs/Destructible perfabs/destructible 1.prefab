@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 547079854696491196}
   - component: {fileID: 8761026112575306997}
   - component: {fileID: 6964201092737493598}
-  m_Layer: 0
+  - component: {fileID: -7833571770822580836}
+  m_Layer: 7
   m_Name: destructible 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +119,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.005667925, y: -0.08396387}
+  m_Offset: {x: -0.005667925, y: -0.18271685}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.50647765, y: 0.42746174}
@@ -129,7 +130,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.875, y: 0.63356304}
+  m_Size: {x: 0.875, y: 0.831069}
   m_EdgeRadius: 0
 --- !u!114 &6964201092737493598
 MonoBehaviour:
@@ -144,3 +145,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRadius: 10
+--- !u!114 &-7833571770822580836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2254656162724319300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0f8d35ff1d81a4b8f6b29e88ac33d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  destructionEffect: {fileID: 8659655543837767011, guid: b9d592470dee53640b64b095f754cfd9, type: 3}

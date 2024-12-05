@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
     public int health = 100;
     public int exp;
     public HealthBar expBar;
+    public GameObject deathVFX;
     private Knockback knockback;
     private Flash flash;
 
@@ -36,6 +37,7 @@ public class EnemyHealth : MonoBehaviour
         {
             DropItems(transform.position);
             PlayerStat.Instance.GainExp(exp);
+            Instantiate(deathVFX,transform.position,Quaternion.identity);
             Destroy(gameObject);
         }
     }
