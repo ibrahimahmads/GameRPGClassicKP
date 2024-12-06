@@ -24030,9 +24030,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 297531548}
-        m_TargetAssemblyTypeName: PindahScene, Assembly-CSharp
-        m_MethodName: pindahkeScene
+      - m_Target: {fileID: 297531547}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: LoadSceneByName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

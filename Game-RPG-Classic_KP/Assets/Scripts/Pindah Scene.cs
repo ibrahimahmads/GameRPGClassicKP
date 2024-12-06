@@ -11,8 +11,9 @@ public class PindahScene : MonoBehaviour
         if (saveManager != null)
         {
             saveManager.DeletePlayerData();
-            //saveManager.InitializeNewGame();
+            saveManager.InitializeNewGame();
         }
+        Time.timeScale = 1f;
         SceneManager.LoadScene(namaScene);
     }
 }
