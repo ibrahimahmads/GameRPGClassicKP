@@ -12,8 +12,18 @@ public class SceneTransition : MonoBehaviour
     {
         if (collision.CompareTag("Player")) // Pastikan objek yang masuk adalah player
         {
-            GameManager.Instance.nextSpawnPoint = targetSpawnPoint; // Simpan spawn point
-            SceneManager.LoadScene(targetScene); // Pindah ke scene tujuan
+            // Simpan spawn point untuk scene berikutnya
+            GameManager.Instance.nextSpawnPoint = targetSpawnPoint;
+
+            // Simpan data pemain sebelum pindah scene
+            SaveManager saveManager = FindObjectOfType<SaveManager>();
+            if (saveManager != null)
+            {
+                saveManager.SavePlayerData();
+            }
+
+            // Pindah ke scene tujuan
+            SceneManager.LoadScene(targetScene);
         }
     }
 }

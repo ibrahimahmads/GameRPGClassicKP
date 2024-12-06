@@ -1,3 +1,4 @@
+using UnityEngine;
 [System.Serializable]
 public class PlayerData
 {
@@ -12,5 +13,7 @@ public class PlayerData
 
     public int coinCount;
     public int potionCount;
+    // Tambahkan posisi pemain
+    //public Vector3 position;
 }
 
