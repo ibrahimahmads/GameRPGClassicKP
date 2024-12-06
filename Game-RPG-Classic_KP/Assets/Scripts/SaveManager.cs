@@ -43,9 +43,6 @@ public class SaveManager : MonoBehaviour
     // Fungsi untuk menginisialisasi data permainan baru
     public void InitializeNewGame()
     {
-        // Inisialisasi data permainan baru di scene permainan
-    if (SceneManager.GetActiveScene().name != "Main Menu")
-    {
         PlayerStat.Instance.hp = 100;
         PlayerStat.Instance.curHp = PlayerStat.Instance.hp;
         PlayerStat.Instance.level = 1;
@@ -68,7 +65,6 @@ public class SaveManager : MonoBehaviour
         SavePlayerData();
 
         Debug.Log("Permainan baru berhasil diinisialisasi dan disimpan.");
-    }
     }
 
 

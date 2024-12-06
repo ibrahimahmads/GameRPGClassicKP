@@ -203,7 +203,7 @@ Transform:
   m_GameObject: {fileID: 34309842}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.45, y: 0, z: -10}
+  m_LocalPosition: {x: 3.33, y: 5.63, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8078,7 +8078,7 @@ Transform:
   m_GameObject: {fileID: 1543613143}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.45, y: 0, z: -10}
+  m_LocalPosition: {x: 0.5164404, y: 5.6397, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8792,11 +8792,11 @@ PrefabInstance:
       objectReference: {fileID: 788263950}
     - target: {fileID: 1993659255285996327, guid: 812c50e8f19d62945bccda6754ce1bb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.45
+      value: 3.33
       objectReference: {fileID: 0}
     - target: {fileID: 1993659255285996327, guid: 812c50e8f19d62945bccda6754ce1bb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 5.63
       objectReference: {fileID: 0}
     - target: {fileID: 1993659255285996327, guid: 812c50e8f19d62945bccda6754ce1bb9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11739,9 +11739,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 297531548}
-        m_TargetAssemblyTypeName: PindahScene, Assembly-CSharp
-        m_MethodName: pindahkeScene
+      - m_Target: {fileID: 297531547}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: LoadSceneByName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
