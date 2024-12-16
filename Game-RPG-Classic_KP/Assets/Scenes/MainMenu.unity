@@ -227,7 +227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadPositionFromSave: 0
-  savedPosition: {x: 0, y: 0, z: 0}
 --- !u!4 &59246275
 Transform:
   m_ObjectHideFlags: 0
@@ -2441,10 +2440,8 @@ GameObject:
   - component: {fileID: 1020296255}
   - component: {fileID: 1020296254}
   - component: {fileID: 1020296253}
-  - component: {fileID: 1020296257}
   - component: {fileID: 1020296258}
   - component: {fileID: 1020296259}
-  - component: {fileID: 1020296260}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2542,19 +2539,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1020296257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1020296252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f4b8e4ef02491a41a7ecc38427dfe5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  namaScene: Lorong
 --- !u!114 &1020296258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2588,20 +2572,6 @@ MonoBehaviour:
   myMixer: {fileID: 24100000, guid: 29a5b6941ce33284ba1e46fc6c88a616, type: 2}
   musicSlider: {fileID: 451727815}
   sfxSlider: {fileID: 1620727164}
---- !u!114 &1020296260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1020296252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e74a3157c1da86c4e9c7176433a04406, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadPositionFromSave: 0
-  savedPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1080567817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3569,9 +3539,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1020296257}
-        m_TargetAssemblyTypeName: PindahScene, Assembly-CSharp
-        m_MethodName: pindahkeScene
+      - m_Target: {fileID: 1020296258}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: NewGame
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

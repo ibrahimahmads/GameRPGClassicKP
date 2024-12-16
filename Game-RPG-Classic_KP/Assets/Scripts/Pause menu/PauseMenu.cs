@@ -13,6 +13,7 @@ public class PauseMenu : MonoBehaviour
     public TextMeshProUGUI textExp;
     public TextMeshProUGUI textLevel;
     public TextMeshProUGUI textNama;
+    private float waitToLoad = 1f;
 
     void Awake()
     {
@@ -81,5 +82,24 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void NewGame(string sceneName)
+    {
+        SaveManager.Instance.DeletePlayerData();
+        SaveManager.Instance.InitializeNewGame();
+        Time.timeScale = 1f;
+        StartCoroutine(LoadSceneRoutine(sceneName));
+    }
+
+    private IEnumerator LoadSceneRoutine(string targetScene)
+    {
+        while(waitToLoad>=0)
+        {
+            waitToLoad -= Time.deltaTime;
+            yield return null;
+        }
+
+        SceneManager.LoadScene(targetScene);
     }
 }

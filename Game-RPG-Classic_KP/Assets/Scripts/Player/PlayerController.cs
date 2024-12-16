@@ -156,10 +156,6 @@ public class PlayerController : MonoBehaviour
             {
                 attackPointDown.SetActive(true);
                 animator.SetFloat("AttDirection", 0);
-            }else
-            {
-                attackPointDown.SetActive(true);
-                animator.SetFloat("AttDirection", 0);
             }
             // Trigger animasi serangan
             animator.SetTrigger("Attack");
