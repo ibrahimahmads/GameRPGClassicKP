@@ -6,12 +6,7 @@ public class PlayerSpawn : MonoBehaviour
 { private void Start()
 {
     // Muat data pemain saat scene dimulai
-        SaveManager saveManager = FindObjectOfType<SaveManager>();
-        if (saveManager != null)
-        {
-            saveManager.LoadGame();
-        }
-
+        SaveManager.Instance.LoadGame();
         // Atur posisi pemain berdasarkan spawn point
         if (GameManager.Instance != null && !string.IsNullOrEmpty(GameManager.Instance.nextSpawnPoint))
         {
@@ -28,6 +23,7 @@ public class PlayerSpawn : MonoBehaviour
                 }
 
                 transform.position = adjustedPosition;
+                FadeTransition.Instance.FadeToClear();
             }
         }
 }

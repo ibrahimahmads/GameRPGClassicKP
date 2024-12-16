@@ -4,12 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
 
-public class SaveManager : MonoBehaviour
+public class SaveManager : Singleton<SaveManager>
 {
     private string filePath;
-    public bool loadPositionFromSave = false; // Flag untuk memutuskan apakah posisi diambil dari save file
-
-    public Vector3 savedPosition; // Posisi terakhir pemain yang disimpan
+    public bool loadPositionFromSave = false; // Flag untuk memutuskan apakah posisi diambil dari save fil
     private void Start()
     {
         // Tentukan path file data
