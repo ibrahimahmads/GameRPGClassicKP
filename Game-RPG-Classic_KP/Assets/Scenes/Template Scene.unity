@@ -304,9 +304,7 @@ GameObject:
   - component: {fileID: 297531544}
   - component: {fileID: 297531543}
   - component: {fileID: 297531547}
-  - component: {fileID: 297531548}
   - component: {fileID: 297531549}
-  - component: {fileID: 297531550}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -418,19 +416,6 @@ MonoBehaviour:
   textExp: {fileID: 426931485}
   textLevel: {fileID: 2145342626}
   textNama: {fileID: 0}
---- !u!114 &297531548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297531542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f4b8e4ef02491a41a7ecc38427dfe5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  namaScene: 
 --- !u!114 &297531549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -446,20 +431,6 @@ MonoBehaviour:
   myMixer: {fileID: 24100000, guid: 29a5b6941ce33284ba1e46fc6c88a616, type: 2}
   musicSlider: {fileID: 1302584408}
   sfxSlider: {fileID: 2023948072}
---- !u!114 &297531550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297531542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e74a3157c1da86c4e9c7176433a04406, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadPositionFromSave: 0
-  savedPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &338748211
 GameObject:
   m_ObjectHideFlags: 0

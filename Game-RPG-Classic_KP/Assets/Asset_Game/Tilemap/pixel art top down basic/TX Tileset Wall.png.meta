@@ -118,7 +118,7 @@ TextureImporter:
         width: 96
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 114
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,10 +157,10 @@ TextureImporter:
         serializedVersion: 2
         x: 288
         y: 384
-        width: 10
+        width: 8
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +181,7 @@ TextureImporter:
         width: 8
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +202,7 @@ TextureImporter:
         width: 96
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,13 +220,21 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 352
-        width: 64
-        height: 96
+        width: 22
+        height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -11, y: 34.5}
+        - {x: -11, y: 11.5}
+        - {x: -9, y: 11.5}
+        - {x: -9, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 11, y: 29.5}
+        - {x: -3, y: 29.5}
+        - {x: -3, y: 34.5}
       tessellationDetail: 0
       bones: []
       spriteID: 230f923b5194b5e46a2a93a124f43c14
@@ -244,7 +252,7 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,7 +273,7 @@ TextureImporter:
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,7 +294,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,7 +315,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,6 +323,87 @@ TextureImporter:
       bones: []
       spriteID: eab7b0e97bcde2445babf43eb99ee354
       internalID: 1462408035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Tileset Wall_10
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 352
+        width: 22
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 35}
+        - {x: 3, y: 29}
+        - {x: -11, y: 29}
+        - {x: -11, y: -35}
+        - {x: 11, y: -35}
+        - {x: 11, y: 35}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade84c0d9a858b640a96847f3e9e7d25
+      internalID: -326606160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Tileset Wall_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 421
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 13.5}
+        - {x: -11, y: -13.5}
+        - {x: -3, y: -13.5}
+        - {x: -3, y: 5.5}
+        - {x: 11, y: 5.5}
+        - {x: 11, y: 13.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45909509dcddc67429e74d7ba1e01764
+      internalID: -75382751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Tileset Wall_12
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 422
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 13}
+        - {x: -11, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: -13}
+        - {x: 11, y: -13}
+        - {x: 11, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046198de857f5aa468c6ccaa41d66269
+      internalID: 67290290
       vertices: []
       indices: 
       edges: []
@@ -332,6 +421,9 @@ TextureImporter:
     nameFileIdTable:
       TX Tileset Wall_0: 704262263
       TX Tileset Wall_1: -2063650692
+      TX Tileset Wall_10: -326606160
+      TX Tileset Wall_11: -75382751
+      TX Tileset Wall_12: 67290290
       TX Tileset Wall_2: 1432566721
       TX Tileset Wall_3: 1233985794
       TX Tileset Wall_4: 665751661
