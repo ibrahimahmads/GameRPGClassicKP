@@ -9084,9 +9084,10 @@ GameObject:
   - component: {fileID: 546124218}
   - component: {fileID: 546124220}
   - component: {fileID: 546124219}
+  - component: {fileID: 546124222}
   - component: {fileID: 546124221}
   m_Layer: 0
-  m_Name: pintu dan spawn
+  m_Name: spawnHutanAtas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9213,12 +9214,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 546124217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4774a947f1d7ee4d9e9d37d035bfda7, type: 3}
+  m_Script: {fileID: 11500000, guid: d429e8038d64b9d45b10705349cc1155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelAlert: {fileID: 1929103265}
-  shiftAmountx: 0
-  shiftAmounty: -1
+  spawnOffset: {x: 0, y: -2}
+--- !u!114 &546124222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546124217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cefc6d4fd1b2b84784fed5984c59a7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScene: ForestKananAtas
+  targetSpawnPoint: spawnHutanBawah
 --- !u!4 &557021095 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4039699701603838969, guid: 5b531b0b395ff5c429d683f573b85409, type: 3}
@@ -20447,7 +20460,7 @@ Transform:
   m_GameObject: {fileID: 1543613143}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.198765, y: -0.0088599995, z: -10}
+  m_LocalPosition: {x: -8.197969, y: -0.0088599995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
