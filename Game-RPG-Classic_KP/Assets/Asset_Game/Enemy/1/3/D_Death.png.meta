@@ -93,9 +93,148 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: D_Death_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 26
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2712c8306c829478f2d34570542730
+      internalID: -1655571275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Death_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 26
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0582cd80570520047b1c0f80cee0c817
+      internalID: 535478770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Death_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 24
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890be4bbf197651479612af69e430bfc
+      internalID: 259063189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Death_14
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 15
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283d6f5959a71514684d43c3e8fa7f67
+      internalID: 1960248591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Death_15
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 20
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0507d42318ffd8f47bde070d0e4b714b
+      internalID: -1359879550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Death_20
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 17
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b3f750a462d3e47bbb973302cda6d8
+      internalID: -2077215076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +245,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      D_Death_0: -1655571275
+      D_Death_1: 535478770
+      D_Death_10: 776115939
+      D_Death_11: -987902665
+      D_Death_12: 259063189
+      D_Death_13: -318898829
+      D_Death_14: 1960248591
+      D_Death_15: -1359879550
+      D_Death_16: -1093595947
+      D_Death_17: -1409779909
+      D_Death_18: 181230496
+      D_Death_19: -1770604437
+      D_Death_2: 401897773
+      D_Death_20: -2077215076
+      D_Death_21: -1809212871
+      D_Death_3: 972194792
+      D_Death_4: 423688305
+      D_Death_5: 1585398658
+      D_Death_6: -1574479810
+      D_Death_7: 441602176
+      D_Death_8: -584513832
+      D_Death_9: -712295301
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

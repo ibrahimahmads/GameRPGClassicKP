@@ -93,9 +93,148 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: D_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 16
+        width: 21
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5703096, y: 0.51915294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f476298de1795448a032c9f8754433
+      internalID: -797887884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 16
+        width: 21
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5747041, y: 0.5174117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c950bc79934bb144aa6a81aa78414d40
+      internalID: 773046200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 17
+        width: 21
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5747041, y: 0.4914555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1dd5194a764d84ea044ee33469e0bc
+      internalID: -1835108880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 20
+        width: 21
+        height: 52
+      alignment: 9
+      pivot: {x: 0.56591654, y: 0.4911268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4eee090f1dc9204c8d7558650906c74
+      internalID: 259143375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 18
+        width: 21
+        height: 53
+      alignment: 9
+      pivot: {x: 0.56591654, y: 0.5017413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b3aaae17295f4438c1fee883337b7b
+      internalID: 1098953382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 17
+        width: 22
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5461426, y: 0.5174117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05cad04ea06af94ebc8d5ecb3ac7010
+      internalID: 667823728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      D_Attack_0: -797887884
+      D_Attack_1: 773046200
+      D_Attack_2: -1835108880
+      D_Attack_3: 259143375
+      D_Attack_4: 1098953382
+      D_Attack_5: 667823728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
