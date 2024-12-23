@@ -1,0 +1,721 @@
+fileFormatVersion: 2
+guid: 8c2a518a80cbb0741bfbd15f5d5ef187
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 384
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb86fbb4d03a1b43ac67d1fe06bbf77
+      internalID: 310233255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 384
+        width: 74
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67378581c72f43c4e8b2ccf8cf43a5d9
+      internalID: -863961352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 288
+        width: 74
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0745aea68091f47af7b3c3226f94ab
+      internalID: 747608614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 288
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62887ec113306a848b0bac81b508803d
+      internalID: -1520770124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 288
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c735076ebe6a85f4f9adfb1e392d6cb3
+      internalID: -1999253881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 288
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9c39283fbb1b64995ccde7ea2feaae
+      internalID: 1664187326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 288
+        width: 74
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0c1900be750ad4487d4ee6d07e6cba
+      internalID: 663712599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 288
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898b0e92c3cdf1348b43d110faf0dfb1
+      internalID: -944370125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 288
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448b06e2378530f45a7e5ce929e71fe3
+      internalID: 1574057460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 288
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87db399c24a508f40a5cd4a3890ba1c2
+      internalID: 1398242834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 192
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27902f6a0fa8354ab7d65512b584141
+      internalID: -816620616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 192
+        width: 76
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6307119ba9ce3c940af2b8588d6561af
+      internalID: -1966083524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 192
+        width: 83
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1284c0c840c3144289d99c98c25b330
+      internalID: 97366700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 192
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ece4ca2d32e5474e9097cb34eb99222
+      internalID: -857121734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 192
+        width: 98
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000353203aa6f1b458ea809bdee32b67
+      internalID: -1069614921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ae5a96c85c152449422137f4459284
+      internalID: 1925497862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 192
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce55187980bbcbd4aa0a83916764f1c4
+      internalID: 1950046208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 96
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefdf39c9355b2f428d9b24dad3affab
+      internalID: -1940392835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 96
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2b8c52c39cd22469e4d9839fd8954d
+      internalID: 939858834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 96
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1f40de5bba3db40bf01b57f684fd13
+      internalID: 917607597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 96
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bba8b7580dc2b48a1d5d48e1b5c4f6
+      internalID: -1246832753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8430c9c382fbfba4fb3e7e7b6ce885d3
+      internalID: 1013888885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bfe54433858444985f1f5a5b6d34cb
+      internalID: 994544651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a453eebd9356e4ab2539f250a22805
+      internalID: 130922978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 0
+        width: 90
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b506580f66265034583b53602855b33d
+      internalID: 1041092386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 89
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92727b2c7e24bae41833ef6f11ebcb72
+      internalID: -1097167522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Mech Rider Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 0
+        width: 89
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eaa8843487f324a8c72e9dde43e378
+      internalID: 411433776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Goblin Mech Rider Sprite Sheet_0: 310233255
+      Goblin Mech Rider Sprite Sheet_1: -863961352
+      Goblin Mech Rider Sprite Sheet_10: -816620616
+      Goblin Mech Rider Sprite Sheet_11: -1966083524
+      Goblin Mech Rider Sprite Sheet_12: 97366700
+      Goblin Mech Rider Sprite Sheet_13: -857121734
+      Goblin Mech Rider Sprite Sheet_14: -1069614921
+      Goblin Mech Rider Sprite Sheet_15: 1925497862
+      Goblin Mech Rider Sprite Sheet_16: 1950046208
+      Goblin Mech Rider Sprite Sheet_17: -1940392835
+      Goblin Mech Rider Sprite Sheet_18: 939858834
+      Goblin Mech Rider Sprite Sheet_19: 917607597
+      Goblin Mech Rider Sprite Sheet_2: 747608614
+      Goblin Mech Rider Sprite Sheet_20: -1246832753
+      Goblin Mech Rider Sprite Sheet_21: 1013888885
+      Goblin Mech Rider Sprite Sheet_22: 994544651
+      Goblin Mech Rider Sprite Sheet_23: 130922978
+      Goblin Mech Rider Sprite Sheet_24: 1041092386
+      Goblin Mech Rider Sprite Sheet_25: -1097167522
+      Goblin Mech Rider Sprite Sheet_26: 411433776
+      Goblin Mech Rider Sprite Sheet_3: -1520770124
+      Goblin Mech Rider Sprite Sheet_4: -1999253881
+      Goblin Mech Rider Sprite Sheet_5: 1664187326
+      Goblin Mech Rider Sprite Sheet_6: 663712599
+      Goblin Mech Rider Sprite Sheet_7: -944370125
+      Goblin Mech Rider Sprite Sheet_8: 1574057460
+      Goblin Mech Rider Sprite Sheet_9: 1398242834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
