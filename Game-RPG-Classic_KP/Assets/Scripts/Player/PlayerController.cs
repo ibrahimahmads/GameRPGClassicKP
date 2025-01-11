@@ -27,6 +27,11 @@ public class PlayerController : MonoBehaviour
     private bool isPaused = false;
     private bool isPlayingMoveSFX = false;
 
+    // knockback
+    private bool isKnockbacked = false;
+    private Vector2 knockbackDirection;
+    //private float knockbackDuration = 0.2f; // Lama waktu knockback
+    private float knockbackTimer = 2f;
     private void Awake()
     {
         Instance = this;
@@ -91,8 +96,21 @@ public class PlayerController : MonoBehaviour
 
     private void move()
     {
-        rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
-        
+        if (isKnockbacked)
+        {
+            // Gerakan saat knockback
+            rb.MovePosition(rb.position + knockbackDirection * (moveSpeed * Time.fixedDeltaTime));
+            knockbackTimer -= Time.fixedDeltaTime;
+            if (knockbackTimer <= 0)
+            {
+                isKnockbacked = false;
+            }
+        }
+        else
+        {
+            // Gerakan normal
+            rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+        }
     }
     
     public void SetPauseState(bool paused)
@@ -207,5 +225,13 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    public void ApplyKnockback(Vector2 direction, float force, float duration)
+    {
+        isKnockbacked = true;
+        knockbackDirection = direction.normalized * force;
+        knockbackTimer = duration;
+    }
+
 
 }
