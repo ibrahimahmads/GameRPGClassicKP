@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ForestKananAtas.unity
     guid: 746fae3d42a4a6b479e531e3dbe11c70
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1.unity
+    guid: 7be0042d22c05a14d8dc902f722a56cc
   m_configObjects: {}
