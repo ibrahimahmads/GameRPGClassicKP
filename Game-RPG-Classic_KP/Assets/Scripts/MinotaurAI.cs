@@ -2,16 +2,25 @@ using UnityEngine;
 
 public class MinotaurAI : MonoBehaviour
 {
+    [Header("Movement Settings")]
     public float roamSpeed = 2f;
     public float chaseSpeed = 4f;
     public float detectionRange = 10f;
     public float attackRange = 2f;
-    public float knockbackForce = 5f;
-    public int maxHealth = 100;
 
+    [Header("Combat Settings")]
+    public float knockbackForce = 5f;
+    private int maxHealth;
+    public float attackCooldownTime = 2f;
+    public int attackDamage = 20;
+
+    [Header("References")]
     public Animator animator;
     public Rigidbody2D rb;
-    public Collider2D bossArea; // Reference to the collider defining the boss area
+    public Collider2D bossArea;
+    public LayerMask attackMask;
+    public Vector3 attackOffset;
+    private Knockback knockback;
 
     private Vector2 roamDirection;
     private Transform player;
@@ -27,45 +36,49 @@ public class MinotaurAI : MonoBehaviour
 
     void Start()
     {
+        InitializeVariables();
+    }
+
+    void Update()
+    {
+        HandleState();
+    }
+
+    // =========================
+    // Initialization Functions
+    // =========================
+
+    private void InitializeVariables()
+    {
+        maxHealth = GetComponent<EnemyHealthBoss>().health;
         currentHealth = maxHealth;
         roamTimer = Random.Range(2f, 5f);
         PickNewRoamDirection();
         attackPatternIndex = 0;
         isPaused = false;
         pauseTimer = 0f;
-
-        // Assume initial facing direction is right
         isFacingRight = true;
-
-        // Find the player
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        knockback = GetComponent<Knockback>();
     }
 
-    void Update()
-    {
-        if (currentHealth <= 0)
-        {
-            Die();
-            return;
-        }
+    // =========================
+    // State Management
+    // =========================
 
+    private void HandleState()
+    {
         if (!IsPlayerInBossArea())
         {
-            if (isPaused)
-            {
-                PauseBeforeRoaming();
-            }
-            else
-            {
-                Roam();
-            }
+            ResetToRoamState();
             return;
         }
 
-        float distanceToPlayer = player ? Vector2.Distance(transform.position, player.position) : Mathf.Infinity;
+        float distanceToPlayer = GetDistanceToPlayer();
 
         if (distanceToPlayer <= attackRange)
         {
+            rb.velocity = Vector2.zero; // Pastikan Minotaur berhenti
             if (attackCooldown <= 0f)
             {
                 Attack();
@@ -78,27 +91,35 @@ public class MinotaurAI : MonoBehaviour
         else
         {
             if (isPaused)
-            {
                 PauseBeforeRoaming();
-            }
             else
-            {
                 Roam();
-            }
         }
 
         if (attackCooldown > 0f)
-        {
             attackCooldown -= Time.deltaTime;
-        }
     }
 
-    void Roam()
+    private void ResetToRoamState()
+    {
+        rb.velocity = Vector2.zero;
+        animator.ResetTrigger("attack");
+        animator.ResetTrigger("attack_sweep");
+        if (isPaused)
+            PauseBeforeRoaming();
+        else
+            Roam();
+    }
+
+    // =========================
+    // Movement Handling
+    // =========================
+
+    private void Roam()
     {
         animator.SetBool("isWalking", true);
-        Vector2 newPosition = rb.position + roamDirection * roamSpeed * Time.deltaTime;
+        Vector2 newPosition = rb.position + roamDirection * roamSpeed * Time.fixedDeltaTime;
 
-        // Check if the new position is inside the boss area
         if (bossArea.OverlapPoint(newPosition))
         {
             rb.MovePosition(newPosition);
@@ -115,11 +136,11 @@ public class MinotaurAI : MonoBehaviour
             rb.velocity = Vector2.zero;
             animator.SetBool("isWalking", false);
             isPaused = true;
-            pauseTimer = Random.Range(1f, 3f); // Durasi berhenti sebelum roaming lagi
+            pauseTimer = Random.Range(1f, 3f);
         }
     }
 
-    void PauseBeforeRoaming()
+    private void PauseBeforeRoaming()
     {
         pauseTimer -= Time.deltaTime;
         if (pauseTimer <= 0f)
@@ -130,55 +151,24 @@ public class MinotaurAI : MonoBehaviour
         }
     }
 
-    void PickNewRoamDirection()
+    private void PickNewRoamDirection()
     {
         roamDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
     }
 
-    void ChasePlayer()
+    private void ChasePlayer()
     {
-        if (!player) return;
+        if (!player || !IsPlayerInBossArea()) return;
 
-        Vector2 direction = (player.position - transform.position).normalized;
+        Vector2 direction = new Vector2(player.position.x,player.position.y);
+        Vector2 direction2 = (player.position - transform.position).normalized;
         animator.SetBool("isWalking", true);
-        rb.velocity = direction * chaseSpeed;
-        FaceDirection(direction.x);
+        Vector2 newPos = Vector2.MoveTowards(rb.position, direction, chaseSpeed * Time.fixedDeltaTime);
+		rb.MovePosition(newPos);
+        FaceDirection(direction2.x);
     }
 
-    void Attack()
-    {
-        animator.SetBool("isWalking", false);
-        rb.velocity = Vector2.zero;
-
-        if (currentHealth < maxHealth / 2)
-        {
-            if (isKnockedBack)
-            {
-                isKnockedBack = false;
-                animator.SetTrigger("attack_sweep");
-            }
-            else
-            {
-                if (attackPatternIndex == 0 || attackPatternIndex == 3)
-                {
-                    animator.SetTrigger("attack_sweep");
-                }
-                else
-                {
-                    animator.SetTrigger("attack");
-                }
-                attackPatternIndex = (attackPatternIndex + 1) % 4;
-            }
-        }
-        else
-        {
-            animator.SetTrigger("attack");
-        }
-
-        attackCooldown = 2f; // Adjust cooldown as needed
-    }
-
-    void FaceDirection(float directionX)
+    private void FaceDirection(float directionX)
     {
         if ((directionX > 0 && !isFacingRight) || (directionX < 0 && isFacingRight))
         {
@@ -189,40 +179,103 @@ public class MinotaurAI : MonoBehaviour
         }
     }
 
-    bool IsPlayerInBossArea()
+    // =========================
+    // Combat Handling
+    // =========================
+
+    private void Attack()
+    {
+        animator.SetBool("isWalking", false);
+        rb.velocity = Vector2.zero;
+
+        if (!player || !IsPlayerInBossArea() || GetDistanceToPlayer() > attackRange)
+        {
+            animator.ResetTrigger("attack");
+            animator.ResetTrigger("attack_sweep");
+            return;
+        }
+
+        if (currentHealth < maxHealth / 2)
+        {
+            HandleLowHealthAttackPattern();
+        }
+        else
+        {
+            animator.SetTrigger("attack");
+        }
+
+        attackCooldown = attackCooldownTime;
+    }
+
+    public void hitPlayer()
+    {
+        if (player == null) return;
+
+        // Cek apakah player berada di dalam jangkauan serang
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        if (distanceToPlayer <= attackRange)
+        {
+            // Ambil komponen PlayerHealth dari player
+            PlayerStat playerStat = player.GetComponent<PlayerStat>();
+
+            if (playerStat != null)
+            {
+                playerStat.TakeDamage(attackDamage);
+            }
+        }
+    }
+
+    private void HandleLowHealthAttackPattern()
+    {
+        if (isKnockedBack)
+        {
+            isKnockedBack = false;
+            animator.SetTrigger("attack_sweep");
+        }
+        else
+        {
+            if (attackPatternIndex == 0 || attackPatternIndex == 3)
+            {
+                animator.SetTrigger("attack_sweep");
+            }
+            else
+            {
+                animator.SetTrigger("attack");
+            }
+            attackPatternIndex = (attackPatternIndex + 1) % 4;
+        }
+    }
+
+    // =========================
+    // Health Management
+    // =========================
+
+
+    // =========================
+    // Utility Functions
+    // =========================
+
+    private bool IsPlayerInBossArea()
     {
         return player && bossArea.OverlapPoint(player.position);
     }
 
-    public void TakeDamage(int damage, Vector2 knockbackDirection)
+    private float GetDistanceToPlayer()
     {
-        currentHealth -= damage;
-
-        if (currentHealth <= maxHealth / 2 && !isKnockedBack)
-        {
-            isKnockedBack = true;
-            rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
-        }
-    }
-
-    void Die()
-    {
-        animator.SetTrigger("die");
-        rb.velocity = Vector2.zero;
-        enabled = false; // Disable the script
+        return player ? Vector2.Distance(transform.position, player.position) : Mathf.Infinity;
     }
 
     void OnDrawGizmosSelected()
     {
-        // Draw detection range
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
 
-        // Draw attack range
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
 
-        // Draw boss area bounds
+        // Gizmos.color = Color.blue;
+        // Gizmos.DrawWireSphere(transform.position, attackOffset);
+
         if (bossArea)
         {
             Bounds bounds = bossArea.bounds;
@@ -230,5 +283,4 @@ public class MinotaurAI : MonoBehaviour
             Gizmos.DrawWireCube(bounds.center, bounds.size);
         }
     }
-
 }

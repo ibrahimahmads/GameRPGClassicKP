@@ -18,11 +18,17 @@ public class Knockback : MonoBehaviour
         gettingKnockedBack = true;
         Vector2 difference = (transform.position - damageSource.position).normalized * knockBackThrust * rb.mass;
         rb.AddForce(difference, ForceMode2D.Impulse); 
-        StartCoroutine(KnockRoutine());
+        StartCoroutine(KnockRoutine(knockBackTime));
+    }
+    public void GetKnockedBackBoss(Transform damageSource, float knockBackThrust, float time) {
+        gettingKnockedBack = true;
+        Vector2 difference = (transform.position - damageSource.position).normalized * knockBackThrust * rb.mass;
+        rb.AddForce(difference, ForceMode2D.Impulse); 
+        StartCoroutine(KnockRoutine(time));
     }
 
-    private IEnumerator KnockRoutine() {
-        yield return new WaitForSeconds(knockBackTime);
+    private IEnumerator KnockRoutine(float waktu) {
+        yield return new WaitForSeconds(waktu);
         rb.velocity = Vector2.zero;
         gettingKnockedBack = false;
     }
