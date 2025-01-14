@@ -216,6 +216,13 @@ public class PlayerController : MonoBehaviour
                     continue;
                 }
 
+                EnemyHealthBoss boss = obj.GetComponent<EnemyHealthBoss>();
+                if(boss != null)
+                {
+                    boss.TakeDamage(playerStat.damage);
+                    continue;
+                }
+
                 // Damage destructible items
                 Destructible destructible = obj.GetComponent<Destructible>();
                 if (destructible != null)

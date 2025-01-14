@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class EnemyHealthBoss : MonoBehaviour
 {
     public ItemData[] itemDrops;
-    public int health = 100;
+    public int health = 300;
     public int exp;
     public float knockback_thrust = 10f;
     public HealthBar expBar;
     public GameObject deathVFX;
+    public Animator animator1;
     private Knockback knockback;
     private Flash flash;
 
@@ -28,19 +29,29 @@ public class EnemyHealth : MonoBehaviour
     {
         health -= damage;
         knockback?.GetKnockedBack(PlayerController.Instance.transform, knockback_thrust);
-        StartCoroutine(flash.FlashRoutine());
+        StartCoroutine(flash.FlashBossRoutine());
     }
 
     public void Die()
     {
         if(health <= 0)
         {
-            DropItems(transform.position);
-            PlayerStat.Instance.GainExp(exp);
-            Instantiate(deathVFX,transform.position,Quaternion.identity);
-            Destroy(gameObject);
+            StartCoroutine(tunggu());
         }
     }
+
+    private IEnumerator tunggu() 
+    {
+        animator1.SetBool("IsDead",true);
+        GetComponent<MinotaurAI>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+        yield return new WaitForSeconds(3.5f);
+        DropItems(transform.position);
+        PlayerStat.Instance.GainExp(exp);
+        Instantiate(deathVFX,transform.position,Quaternion.identity);
+        Destroy(gameObject);
+    }
+    
 
     void DropItems(Vector2 posisi)
     {
