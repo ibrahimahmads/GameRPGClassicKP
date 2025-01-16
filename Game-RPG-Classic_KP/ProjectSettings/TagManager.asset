@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Audio
   - Batas
+  - Enemy
   layers:
   - Default
   - TransparentFX

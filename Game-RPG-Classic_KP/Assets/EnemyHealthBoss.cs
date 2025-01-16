@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class EnemyHealthBoss : MonoBehaviour
 {
+    public bool isInDungeon = false;
     public ItemData[] itemDrops;
     public int health = 300;
     public int exp;
     public float knockback_thrust = 10f;
+    public GameObject portal;
     public HealthBar expBar;
     public GameObject deathVFX;
     public Animator animator1;
     private Knockback knockback;
     private Flash flash;
+    public Timer timer;
 
     void Awake()
     {
@@ -22,6 +25,7 @@ public class EnemyHealthBoss : MonoBehaviour
 
     void Start()
     {
+        portal.SetActive(false);
         Time.timeScale = 1f;
     }
 
@@ -36,6 +40,10 @@ public class EnemyHealthBoss : MonoBehaviour
     {
         if(health <= 0)
         {
+            if (isInDungeon)
+            {
+                DungeonManager.instance.EnemyDefeated();
+            }
             StartCoroutine(tunggu());
         }
     }
@@ -45,10 +53,12 @@ public class EnemyHealthBoss : MonoBehaviour
         animator1.SetBool("IsDead",true);
         GetComponent<MinotaurAI>().enabled = false;
         GetComponent<Collider2D>().enabled = false;
+        timer.StopTimer();
         yield return new WaitForSeconds(3.5f);
         DropItems(transform.position);
         PlayerStat.Instance.GainExp(exp);
         Instantiate(deathVFX,transform.position,Quaternion.identity);
+        portal.SetActive(true);
         Destroy(gameObject);
     }
     

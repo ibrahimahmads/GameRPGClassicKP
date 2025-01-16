@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: -8300616820397425732}
   m_Layer: 6
   m_Name: Green Slime
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1426645003
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 900227074, guid: b402f80a698daa9449a42b4fd708c999, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -192,7 +192,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 733a3905bd9bce44792726459609aea2, type: 2}
   health: 100
   exp: 8
+  knockback_thrust: 10
   expBar: {fileID: 1417689045429783761, guid: 9b2e63231de5fc442b48d9467ab87ed2, type: 3}
+  deathVFX: {fileID: 0}
 --- !u!114 &-6395746847731048655
 MonoBehaviour:
   m_ObjectHideFlags: 0
