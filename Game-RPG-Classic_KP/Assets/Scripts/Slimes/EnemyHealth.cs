@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    public bool isInDungeon = false;
     public ItemData[] itemDrops;
     public int health = 100;
     public int exp;
@@ -33,15 +34,20 @@ public class EnemyHealth : MonoBehaviour
 
     public void Die()
     {
+        
         if(health <= 0)
         {
+            if (isInDungeon)
+        {
+            DungeonManager.instance.EnemyDefeated();
+        }
             DropItems(transform.position);
             PlayerStat.Instance.GainExp(exp);
             Instantiate(deathVFX,transform.position,Quaternion.identity);
             Destroy(gameObject);
         }
     }
-
+        
     void DropItems(Vector2 posisi)
     {
         foreach (ItemData item in itemDrops)

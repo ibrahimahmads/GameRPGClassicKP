@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 2872027930411481080}
   m_Layer: 6
   m_Name: Blue Slime
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1426645003
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1937544348, guid: 45a4fc35456d8b24b97f5f4e2a0d0767, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -192,6 +192,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 733a3905bd9bce44792726459609aea2, type: 2}
   health: 100
   exp: 8
+  knockback_thrust: 10
   expBar: {fileID: 1417689045429783761, guid: 9b2e63231de5fc442b48d9467ab87ed2, type: 3}
   deathVFX: {fileID: 8659655543837767011, guid: ac2b89bcd921915458075662689bfdae, type: 3}
 --- !u!114 &7890100223875170690
