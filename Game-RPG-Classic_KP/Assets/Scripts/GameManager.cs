@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public string nextSpawnPoint; // Nama spawn point untuk scene berikutnya
+    public Vector2 posisi;
 
     private void Awake()
     {

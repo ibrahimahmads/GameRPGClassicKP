@@ -41,13 +41,13 @@ public class SaveManager : Singleton<SaveManager>
     // Fungsi untuk menginisialisasi data permainan baru
     public void InitializeNewGame()
     {
-        PlayerStat.Instance.hp = 100;
+        PlayerStat.Instance.hp = 50;
         PlayerStat.Instance.curHp = PlayerStat.Instance.hp;
         PlayerStat.Instance.level = 1;
         PlayerStat.Instance.curExp = 0;
         PlayerStat.Instance.maxExp = 20;
-        PlayerStat.Instance.damage = 30;
-        PlayerStat.Instance.defend = 10;
+        PlayerStat.Instance.damage = 10;
+        PlayerStat.Instance.defend = 5;
         PlayerStat.Instance.luck = 5;
         
         PlayerStat.Instance.hpBar.SetMaxHp(PlayerStat.Instance.hp);
@@ -119,6 +119,7 @@ public class SaveManager : Singleton<SaveManager>
         ItemManager.Instance.AddCoins(data.coinCount); // Terapkan jumlah koin
         ItemManager.Instance.AddPotions(data.potionCount); // Terapkan jumlah potion
         // Terapkan posisi pemain
+        //GameManager.Instance.posisi = data.position;
         // Terapkan data posisi jika diperlukan
         //savedPosition = data.position;
         //loadPositionFromSave = true;
