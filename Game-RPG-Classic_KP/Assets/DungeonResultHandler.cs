@@ -11,6 +11,10 @@ public class DungeonResultHandler : MonoBehaviour
 
     public TextMeshProUGUI musuhText;
     public TextMeshProUGUI timeText;
+    public TextMeshProUGUI hpText;
+    public TextMeshProUGUI attText;
+    public TextMeshProUGUI defText;
+    public TextMeshProUGUI luckText;
 
     private void Start()
     {
@@ -48,7 +52,7 @@ public class DungeonResultHandler : MonoBehaviour
         PlayerStat.Instance.luck += Mathf.RoundToInt(result.luck);
 
         // Debug untuk memeriksa hasil
-        Debug.Log($"Fuzzy Result Applied: HP={result.hp}, DEF={result.defend}, ATK={result.damage}, LUCK={result.luck}");
+        //Debug.Log($"Fuzzy Result Applied: HP={result.hp}, DEF={result.defend}, ATK={result.damage}, LUCK={result.luck}");
 
         // Tampilkan perubahan pada UI atau notifikasi
         ShowStatChanges(result);
@@ -62,6 +66,11 @@ public class DungeonResultHandler : MonoBehaviour
         Debug.Log($"DEF Bertambah: {result.defend}");
         Debug.Log($"ATK Bertambah: {result.damage}");
         Debug.Log($"LUCK Bertambah: {result.luck}");
+        hpText.text = (PlayerStat.Instance.hp - result.hp)+" + " + result.hp;
+        attText.text = (PlayerStat.Instance.damage - result.damage)+" + " + result.damage;
+        defText.text = (PlayerStat.Instance.defend - result.defend)+" + " + result.defend;
+        luckText.text = (PlayerStat.Instance.luck - result.luck)+" + " + result.luck;
+
     }
 
     public void showResult()

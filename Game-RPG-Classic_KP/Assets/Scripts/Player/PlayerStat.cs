@@ -79,9 +79,9 @@ public class PlayerStat : MonoBehaviour
         expBar.SetMaxExp(maxExp);  // Update bar EXP untuk level berikutnya
 
         // Tingkatkan stats pemain
-        hp += 20;
-        damage += 5;
-        defend += 3;
+        hp += 5;
+        damage += 3;
+        defend += 1;
         
         curHp = hp;  // Reset HP ke max saat level up
         hpBar.SetMaxHp(hp);  // Update bar HP

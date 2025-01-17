@@ -111,10 +111,10 @@ public class FuzzyLogicManager : MonoBehaviour
                 else if (attribute == "JumlahMusuh")
                     membership = GetMembership(enemyInput, enemySets, setName);
 
-                Debug.Log($"Condition: {condition}, Membership: {membership}");
+                //Debug.Log($"Condition: {condition}, Membership: {membership}");
                 minMembership = Mathf.Min(minMembership, membership);
             }
-            Debug.Log($"Min Membership untuk Rule {rule.condition}: {minMembership}");
+            //Debug.Log($"Min Membership untuk Rule {rule.condition}: {minMembership}");
 
             result.hp += Mathf.RoundToInt(rule.hpChange * minMembership);
             result.defend += Mathf.RoundToInt(rule.defChange * minMembership);
@@ -135,17 +135,17 @@ public class FuzzyLogicManager : MonoBehaviour
                 Fuzzification(value, set, out float uLeft, out float uCenter, out float uRight);
 
                 if (setName == "Sedikit" || setName == "Cepat") {
-                    Debug.Log($"GetMembership - Set: {setName}, uLeft: {uLeft}");
+                    //Debug.Log($"GetMembership - Set: {setName}, uLeft: {uLeft}");
                     return uLeft;
                 }
                 if (setName == "Sedang") 
                 {
-                    Debug.Log($"GetMembership - Set: {setName}, uCenter: {uCenter}");
+                    //Debug.Log($"GetMembership - Set: {setName}, uCenter: {uCenter}");
                     return uCenter;
                 }
                 if (setName == "Banyak" || setName == "Lama")
                 {
-                    Debug.Log($"GetMembership - Set: {setName}, uRight: {uRight}");
+                    //Debug.Log($"GetMembership - Set: {setName}, uRight: {uRight}");
                     return uRight;
                 }         
             }

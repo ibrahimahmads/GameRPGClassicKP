@@ -10,6 +10,14 @@ public class SceneTransition : MonoBehaviour
 
     private float waitToLoad = 1f;
 
+    public void keluarDungeon()
+    {
+        GameManager.Instance.nextSpawnPoint = targetSpawnPoint;
+        SaveManager.Instance.SavePlayerData();
+        FadeTransition.Instance.FadeToBlack();
+        StartCoroutine(LoadSceneRoutine(targetScene));
+    } 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player")) // Pastikan objek yang masuk adalah player
@@ -18,11 +26,11 @@ public class SceneTransition : MonoBehaviour
             GameManager.Instance.nextSpawnPoint = targetSpawnPoint;
             SaveManager.Instance.SavePlayerData();
             FadeTransition.Instance.FadeToBlack();
-            StartCoroutine(LoadSceneRoutine());
+            StartCoroutine(LoadSceneRoutine(targetScene));
         }
     }
 
-    private IEnumerator LoadSceneRoutine()
+    private IEnumerator LoadSceneRoutine(string targetScene)
     {
         while(waitToLoad>=0)
         {
@@ -31,5 +39,5 @@ public class SceneTransition : MonoBehaviour
         }
 
         SceneManager.LoadScene(targetScene);
-    }
+    }   
 }
