@@ -27,7 +27,7 @@ public class DungeonManager : MonoBehaviour
     {
         enemiesDefeated++;
         musuhText.text = enemiesDefeated.ToString();
-        Debug.Log($"Enemies defeated: {enemiesDefeated}");
+        //Debug.Log($"Enemies defeated: {enemiesDefeated}");
     }
 
     public int GetEnemiesDefeated()
