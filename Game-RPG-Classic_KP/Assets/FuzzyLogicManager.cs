@@ -89,16 +89,22 @@ public class FuzzyLogicManager : MonoBehaviour
     {
         GameObject tempObject = new GameObject("TempPlayerStat");
         PlayerStat result = tempObject.AddComponent<PlayerStat>();
+        float totalWeightHp1 = 0f;
+        float totalWeightDef1 = 0f;
+        float totalWeightAtt2 = 0f;
+        float totalWeightLuck2 = 0f;
 
-        foreach (var rule in rules)
+        float totalMembership1 = 0f, totalMembership2 = 0f;
+
+        for (int i = 0; i < rules.Count; i++)
         {
+            var rule = rules[i];
             string[] conditions = rule.condition.Split(new string[] { " AND " }, System.StringSplitOptions.None);
 
-            float minMembership = 1f; // Nilai keanggotaan minimum (untuk AND)
+            float minMembership = 1f; // Nilai keanggotaan minimum untuk aturan ini
 
             foreach (var condition in conditions)
             {
-                
                 string[] parts = condition.Split(' ');
                 string attribute = parts[0]; // e.g., "HP", "Waktu"
                 string setName = parts[1];   // e.g., "Sedikit", "Cepat"
@@ -111,15 +117,30 @@ public class FuzzyLogicManager : MonoBehaviour
                 else if (attribute == "JumlahMusuh")
                     membership = GetMembership(enemyInput, enemySets, setName);
 
-                //Debug.Log($"Condition: {condition}, Membership: {membership}");
                 minMembership = Mathf.Min(minMembership, membership);
             }
-            //Debug.Log($"Min Membership untuk Rule {rule.condition}: {minMembership}");
 
-            result.hp += Mathf.RoundToInt(rule.hpChange * minMembership);
-            result.defend += Mathf.RoundToInt(rule.defChange * minMembership);
-            result.damage += Mathf.RoundToInt(rule.attChange * minMembership);
-            result.luck += Mathf.RoundToInt(rule.luckChange * minMembership);
+            if (i < 9) // Rules pertama (0-8)
+            {
+                totalWeightHp1 += rule.hpChange * minMembership;
+                totalWeightDef1 += rule.defChange * minMembership;
+                totalMembership1 += minMembership;
+            }
+            else // Rules kedua (9-17)
+            {
+                totalWeightAtt2 += rule.attChange * minMembership;
+                totalWeightLuck2 += rule.luckChange * minMembership;
+                totalMembership2 += minMembership;
+            }
+        }
+
+        // Menghitung hasil akhir untuk masing-masing membership
+        if (totalMembership1 > 0 && totalMembership2 > 0)
+        {
+            result.hp += Mathf.RoundToInt(totalWeightHp1 / totalMembership1);
+            result.defend += Mathf.RoundToInt(totalWeightDef1 / totalMembership1);
+            result.damage += Mathf.RoundToInt(totalWeightAtt2 / totalMembership2);
+            result.luck += Mathf.RoundToInt(totalWeightLuck2 / totalMembership2);
         }
 
         return result;

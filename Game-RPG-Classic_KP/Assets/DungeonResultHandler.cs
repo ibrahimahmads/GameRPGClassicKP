@@ -16,6 +16,10 @@ public class DungeonResultHandler : MonoBehaviour
     public TextMeshProUGUI defText;
     public TextMeshProUGUI luckText;
 
+    // public float currentHP = 68;
+    // public float timeTaken = 74;
+    // public float enemiesDefeated = 2;
+
     private void Start()
     {
         // Pastikan script ini hanya aktif setelah dungeon selesai
@@ -40,8 +44,9 @@ public class DungeonResultHandler : MonoBehaviour
         float currentHP = curHP/ maxHP* 100; // Persentase HP saat ini
         float timeTaken = dungeonTimer.GetElapsedTime(); // Ambil waktu yang tercatat
         float enemiesDefeated = dungeonScoreManager.GetEnemiesDefeated(); // Jumlah musuh dikalahkan
-        Debug.Log("Input HP % : "+currentHP+"%. waktu : "+ timeTaken+" detik. jmlMusuh : "+enemiesDefeated);
 
+        
+        Debug.Log("Input HP % : "+currentHP+"%. waktu : "+ timeTaken+" detik. jmlMusuh : "+enemiesDefeated);
         // Hitung hasil fuzzy
         PlayerStat result = fuzzyManager.EvaluateRules(currentHP, timeTaken, enemiesDefeated);
 

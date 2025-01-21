@@ -217,10 +217,12 @@ public class MinotaurAI : MonoBehaviour
         {
             // Ambil komponen PlayerHealth dari player
             PlayerStat playerStat = player.GetComponent<PlayerStat>();
+            Collider2D pemain = player.GetComponent<Collider2D>();
 
             if (playerStat != null)
             {
                 playerStat.TakeDamage(attackDamage);
+                ApplyKnockback(pemain);
             }
         }
     }
@@ -246,10 +248,15 @@ public class MinotaurAI : MonoBehaviour
         }
     }
 
-    // =========================
-    // Health Management
-    // =========================
-
+    private void ApplyKnockback(Collider2D player)
+    {
+        Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            Vector2 knockbackDirection = (player.transform.position - transform.position).normalized;
+            player.GetComponent<PlayerController>().ApplyKnockback(knockbackDirection, knockbackForce, 0.05f);
+        }
+    }
 
     // =========================
     // Utility Functions
