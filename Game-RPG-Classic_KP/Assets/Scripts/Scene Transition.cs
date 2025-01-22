@@ -32,6 +32,9 @@ public class SceneTransition : MonoBehaviour
 
     private IEnumerator LoadSceneRoutine(string targetScene)
     {
+        GameManager.Instance.currentScene = SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetString("LastScene", GameManager.Instance.currentScene);
+        PlayerPrefs.Save();
         while(waitToLoad>=0)
         {
             waitToLoad -= Time.deltaTime;

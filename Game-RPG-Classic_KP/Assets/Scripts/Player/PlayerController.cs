@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     
     private bool isPaused = false;
     private bool isPlayingMoveSFX = false;
-
+    private Vector2 lastDirection = Vector2.zero;
     // knockback
     private bool isKnockbacked = false;
     private Vector2 knockbackDirection;
@@ -149,10 +149,10 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && Time.time >= lastAttackTime + attackCooldown) // Tombol serangan, misalnya "Fire1"
         {
             lastAttackTime = Time.time;
-            attackPointRight.SetActive(false);
-            attackPointLeft.SetActive(false);
-            attackPointUp.SetActive(false);
-            attackPointDown.SetActive(false);
+            
+            
+            
+            
 
             // Tentukan arah serangan
             if (movement.x > 0) // Kanan
@@ -181,7 +181,25 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void AttackAnimEndEvent()
+    private void upAttack()
+    {
+        attackPointUp.SetActive(true);
+    }
+    private void leftAttack()
+    {
+        attackPointLeft.SetActive(true);
+    }
+    private void rightAttack()
+    {
+       attackPointRight.SetActive(true);
+    }
+    private void downAttack()
+    {
+        attackPointDown.SetActive(true);
+    }
+
+    // Fungsi untuk mereset semua attack point
+    private void ResetAttackPoints()
     {
         attackPointRight.SetActive(false);
         attackPointLeft.SetActive(false);
