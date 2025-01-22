@@ -50,6 +50,9 @@ public class PauseMenu : MonoBehaviour
 
     IEnumerator PauseCoroutine()
     {
+        GameManager.Instance.posisi = PlayerStat.Instance.transform.position;
+        SaveManager.Instance.SavePlayerData();
+
         int maxExp = PlayerStat.Instance.maxExp;
         int curExp = PlayerStat.Instance.curExp;
         int lvl = PlayerStat.Instance.level;
@@ -81,6 +84,9 @@ public class PauseMenu : MonoBehaviour
     public void LoadSceneByName(string sceneName)
     {
         Time.timeScale = 1f;
+        GameManager.Instance.currentScene = SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetString("LastScene", GameManager.Instance.currentScene);
+        PlayerPrefs.Save();
         SceneManager.LoadScene(sceneName);
     }
 
@@ -102,4 +108,29 @@ public class PauseMenu : MonoBehaviour
 
         SceneManager.LoadScene(targetScene);
     }
+
+    public void MemuatGame()
+    {
+        // Pastikan data pemain dimuat terlebih dahulu
+        SaveManager.Instance.LoadGame();
+
+        // Dapatkan nama scene terakhir dari PlayerPrefs
+        string lastScene =  PlayerPrefs.GetString("LastScene", "Lorong");
+        FadeTransition.Instance.FadeToBlack();
+        StartCoroutine(LoadSceneRoutineAnim(lastScene));
+    }
+
+    private IEnumerator LoadSceneRoutineAnim(string targetScene)
+    {
+        GameManager.Instance.currentScene = SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetString("LastScene", GameManager.Instance.currentScene);
+        PlayerPrefs.Save();
+        while(waitToLoad>=0)
+        {
+            waitToLoad -= Time.deltaTime;
+            yield return null;
+        }
+
+        SceneManager.LoadScene(targetScene);
+    }   
 }

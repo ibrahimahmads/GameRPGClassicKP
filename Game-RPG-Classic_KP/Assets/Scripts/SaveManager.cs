@@ -7,7 +7,6 @@ using System.IO;
 public class SaveManager : Singleton<SaveManager>
 {
     private string filePath;
-    public bool loadPositionFromSave = false; // Flag untuk memutuskan apakah posisi diambil dari save fil
     private void Start()
     {
         // Tentukan path file data
@@ -81,10 +80,11 @@ public class SaveManager : Singleton<SaveManager>
             maxExp = PlayerStat.Instance.maxExp,
             coinCount = ItemManager.Instance.CoinCount,
             potionCount = ItemManager.Instance.PotionCount,
-            // Simpan posisi pemain
-            //position = PlayerStat.Instance.transform.position 
+            positionX = PlayerStat.Instance.transform.position.x,
+            positionY = PlayerStat.Instance.transform.position.y
+            
         };
-
+        
         string json = JsonUtility.ToJson(data); // Mengubah data ke format JSON
 
         // Simpan file
@@ -118,12 +118,7 @@ public class SaveManager : Singleton<SaveManager>
         ItemManager.Instance.ResetItems(); // Pastikan di-reset sebelum mengisi ulang
         ItemManager.Instance.AddCoins(data.coinCount); // Terapkan jumlah koin
         ItemManager.Instance.AddPotions(data.potionCount); // Terapkan jumlah potion
-        // Terapkan posisi pemain
-        //GameManager.Instance.posisi = data.position;
-        // Terapkan data posisi jika diperlukan
-        //savedPosition = data.position;
-        //loadPositionFromSave = true;
-        // Terapkan data lainnya
+        //GameManager.Instance.posisi = new Vector2(data.positionX, data.positionY);
         Debug.Log("Game loaded!");
     }
     else
@@ -136,6 +131,9 @@ public string GetFilePath()
 {
     return filePath;
 }
+
+
+
 
 
 }

@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public string currentScene; // Nama scene aktif
+
     public static GameManager Instance;
 
     public string nextSpawnPoint; // Nama spawn point untuk scene berikutnya
@@ -22,6 +24,5 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
     
 }
