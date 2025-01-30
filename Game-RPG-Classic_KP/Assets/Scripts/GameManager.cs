@@ -25,4 +25,11 @@ public class GameManager : MonoBehaviour
         }
     }
     
+    public void SetPosisi(Vector2 newPosition)
+    {
+        Debug.Log($"[GameManager] Posisi sebelum update: {posisi}");
+        posisi = newPosition;
+        Debug.Log($"[GameManager] Posisi setelah update: {posisi}");
+    }
+
 }
