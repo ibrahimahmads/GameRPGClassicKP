@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using System.IO;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -14,9 +15,12 @@ public class PauseMenu : MonoBehaviour
     public TextMeshProUGUI textLevel;
     public TextMeshProUGUI textNama;
     private float waitToLoad = 1f;
+    private string filePath;
+    
 
     void Awake()
     {
+        filePath = Application.persistentDataPath + "/playerData.json";
         if(pauseMenuUI==null)
         {
             return;
@@ -84,9 +88,7 @@ public class PauseMenu : MonoBehaviour
     public void LoadSceneByName(string sceneName)
     {
         Time.timeScale = 1f;
-        GameManager.Instance.currentScene = SceneManager.GetActiveScene().name;
-        PlayerPrefs.SetString("LastScene", GameManager.Instance.currentScene);
-        PlayerPrefs.Save();
+        SaveManager.Instance.SavePlayerData();
         SceneManager.LoadScene(sceneName);
     }
 
@@ -111,20 +113,28 @@ public class PauseMenu : MonoBehaviour
 
     public void MemuatGame()
     {
+        if (GameManager.Instance == null)
+        {
+            GameObject gameManagerObj = new GameObject("GameManager");
+            gameManagerObj.AddComponent<GameManager>();
+        }
         // Pastikan data pemain dimuat terlebih dahulu
         SaveManager.Instance.LoadGame();
-
+        if (!File.Exists(filePath))
+        {
+            Debug.Log("Load game gagal, tidak berpindah scene.");
+            return;
+        }
+        PlayerPrefs.SetString("LastScene", "MainMenu");
+        PlayerPrefs.Save();
         // Dapatkan nama scene terakhir dari PlayerPrefs
-        string lastScene =  PlayerPrefs.GetString("LastScene", "Lorong");
+        string lastScene =  GameManager.Instance.currentScene;
         FadeTransition.Instance.FadeToBlack();
         StartCoroutine(LoadSceneRoutineAnim(lastScene));
     }
 
     private IEnumerator LoadSceneRoutineAnim(string targetScene)
     {
-        GameManager.Instance.currentScene = SceneManager.GetActiveScene().name;
-        PlayerPrefs.SetString("LastScene", GameManager.Instance.currentScene);
-        PlayerPrefs.Save();
         while(waitToLoad>=0)
         {
             waitToLoad -= Time.deltaTime;

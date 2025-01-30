@@ -16,5 +16,7 @@ public class PlayerData
     // Tambahkan posisi pemain
     public float positionX;
     public float positionY;
+    public string lastScene;
+    public string spawnTarget;
 }
 
