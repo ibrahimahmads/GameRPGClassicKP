@@ -1851,6 +1851,7 @@ GameObject:
   - component: {fileID: 297531543}
   - component: {fileID: 297531547}
   - component: {fileID: 297531549}
+  - component: {fileID: 297531550}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1980,6 +1981,18 @@ MonoBehaviour:
   myMixer: {fileID: 24100000, guid: 29a5b6941ce33284ba1e46fc6c88a616, type: 2}
   musicSlider: {fileID: 1302584408}
   sfxSlider: {fileID: 2023948072}
+--- !u!114 &297531550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297531542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a60b44e3a6cde45954ce2ba2170188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &338748211
 GameObject:
   m_ObjectHideFlags: 0
@@ -5093,7 +5106,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 699714199}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 297531550}
+        m_TargetAssemblyTypeName: ResolutionManager, Assembly-CSharp
+        m_MethodName: SetResolution1920x1080
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &699714199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43746,7 +43771,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1480517888}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 297531550}
+        m_TargetAssemblyTypeName: ResolutionManager, Assembly-CSharp
+        m_MethodName: ToggleFullscreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1480517888
 MonoBehaviour:
   m_ObjectHideFlags: 0
