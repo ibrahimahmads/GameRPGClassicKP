@@ -18,6 +18,7 @@ public class PlayerStat : MonoBehaviour
     public HealthBar hpBar;
     public HealthBar expBar;
     public TextMeshProUGUI lvlText;
+    private Flash flash;
 
     void Awake()
     {
@@ -40,21 +41,13 @@ public class PlayerStat : MonoBehaviour
         expBar.SetMaxExp(maxExp);  // Set batas max EXP pada level awal
         expBar.SetExp(curExp); 
         lvlText.text = ""+level;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // if(Input.GetKeyDown(KeyCode.Space))
-        // {
-        //     TakeDamage(20);
-        // }
+        flash = GetComponent<Flash>();
     }
 
     public void TakeDamage(int damage)
     {
         curHp -= damage;
-
+        StartCoroutine(flash.FlashPlayerRoutine());
         hpBar.SetHealth(curHp);
     }
 

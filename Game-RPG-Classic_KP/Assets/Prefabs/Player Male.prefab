@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 641500081034352627}
   m_Layer: 8
   m_Name: Attack Point Down
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 588347957168549915}
   m_Layer: 8
   m_Name: Attack Point Right
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -184,7 +184,7 @@ GameObject:
   - component: {fileID: 5571389011653549625}
   m_Layer: 8
   m_Name: Attack Point Left
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 5436140672024869147}
   m_Layer: 8
   m_Name: Attack Point Up
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -362,6 +362,7 @@ GameObject:
   - component: {fileID: 4455034147002021850}
   - component: {fileID: -3260816422346324972}
   - component: {fileID: 109508770770103841}
+  - component: {fileID: 6198721035682838679}
   m_Layer: 8
   m_Name: Player Male
   m_TagString: Player
@@ -581,6 +582,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c02ede928049748accda0ae44beff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6198721035682838679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8251888691165874464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e365be5d6b2ec224b9ab2f4de69600dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteFlashMat: {fileID: 2100000, guid: 7695f6ccbf5246a42a68a74e9864414f, type: 2}
+  restoreDefaultMatTime: 0.2
 --- !u!1 &8745306035880057380
 GameObject:
   m_ObjectHideFlags: 0

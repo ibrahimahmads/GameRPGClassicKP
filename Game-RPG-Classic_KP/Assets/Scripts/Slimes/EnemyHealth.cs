@@ -38,9 +38,9 @@ public class EnemyHealth : MonoBehaviour
         if(health <= 0)
         {
             if (isInDungeon)
-        {
-            DungeonManager.instance.EnemyDefeated();
-        }
+            {
+                DungeonManager.instance.EnemyDefeated();
+            }
             DropItems(transform.position);
             PlayerStat.Instance.GainExp(exp);
             Instantiate(deathVFX,transform.position,Quaternion.identity);
