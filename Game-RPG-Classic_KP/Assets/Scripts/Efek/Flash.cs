@@ -32,4 +32,10 @@ public class Flash : MonoBehaviour
         spriteRenderer.material = defaultMat;
         enemyHealthBoss.Die();
     }
+
+    public IEnumerator FlashPlayerRoutine() {
+        spriteRenderer.material = whiteFlashMat;
+        yield return new WaitForSeconds(restoreDefaultMatTime);
+        spriteRenderer.material = defaultMat;
+    }
 }
