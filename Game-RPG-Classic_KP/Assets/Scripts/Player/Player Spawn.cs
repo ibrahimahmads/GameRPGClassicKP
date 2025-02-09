@@ -12,7 +12,7 @@ public class PlayerSpawn : MonoBehaviour
         // Muat data pemain saat scene dimulai
         SaveManager.Instance.LoadGame();
         // Jika ada data posisi terakhir pemain, gunakan itu
-        if (GameManager.Instance != null && curScene == "MainMenu")
+        if (GameManager.Instance != null && curScene == "MainMenu" && GameManager.Instance.posisi != null)
         {
             Debug.Log($"curScene saat load: {curScene}");
 

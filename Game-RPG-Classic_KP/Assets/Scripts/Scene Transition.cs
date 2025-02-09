@@ -12,6 +12,7 @@ public class SceneTransition : MonoBehaviour
 
     public void keluarDungeon()
     {
+        Time.timeScale = 1f;
         GameManager.Instance.nextSpawnPoint = targetSpawnPoint;
         SaveManager.Instance.SavePlayerData();
         FadeTransition.Instance.FadeToBlack();
@@ -23,6 +24,7 @@ public class SceneTransition : MonoBehaviour
         if (collision.CompareTag("Player")) // Pastikan objek yang masuk adalah player
         {
             // Simpan spawn point untuk scene berikutnya
+            //GameManager.Instance.lastSpawnPoint = GameManager.Instance.nextSpawnPoint;
             GameManager.Instance.nextSpawnPoint = targetSpawnPoint;
             SaveManager.Instance.SavePlayerData();
             FadeTransition.Instance.FadeToBlack();
