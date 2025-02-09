@@ -18,6 +18,7 @@ public class PlayerStat : MonoBehaviour
     public HealthBar hpBar;
     public HealthBar expBar;
     public TextMeshProUGUI lvlText;
+    public GameObject loseScreen;
     private Flash flash;
 
     void Awake()
@@ -41,7 +42,39 @@ public class PlayerStat : MonoBehaviour
         expBar.SetMaxExp(maxExp);  // Set batas max EXP pada level awal
         expBar.SetExp(curExp); 
         lvlText.text = ""+level;
-        flash = GetComponent<Flash>();
+        loseScreen.SetActive(false);
+        flash = GetComponent<Flash>(); 
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            UsePotion();
+        }
+    }
+
+    void UsePotion()
+    {
+        if(ItemManager.Instance.PotionCount > 0)
+        {
+            if(curHp >= hp)
+            {
+                return;
+            }else{
+                curHp += 10;
+                if (curHp > hp) // Pastikan HP tidak melebihi maksimum
+                {
+                    curHp = hp;
+                }
+
+                hpBar.SetHealth(curHp);
+                ItemManager.Instance.UsePotions(1);
+            }     
+        }else if (ItemManager.Instance.PotionCount == 0)
+        {
+            return;
+        }
     }
 
     public void TakeDamage(int damage)
@@ -49,6 +82,18 @@ public class PlayerStat : MonoBehaviour
         curHp -= damage;
         StartCoroutine(flash.FlashPlayerRoutine());
         hpBar.SetHealth(curHp);
+        if (curHp <= 0) 
+        {
+            curHp = 0;
+            hpBar.SetHealth(curHp);
+            LoseGame();
+        }
+    }
+
+    public void LoseGame()
+    {
+        loseScreen.SetActive(true); // Aktifkan panel lose screen
+        Time.timeScale = 0f;
     }
 
     public void GainExp(int exp)

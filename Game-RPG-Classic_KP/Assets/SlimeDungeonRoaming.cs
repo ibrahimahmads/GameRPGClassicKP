@@ -76,8 +76,11 @@ public class SlimeDungeonRoaming : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Vector2 knockbackDirection = (collision.transform.position - transform.position).normalized;
-        collision.GetComponent<PlayerStat>().TakeDamage(6);
-        collision.GetComponent<PlayerController>().ApplyKnockback(knockbackDirection,6f,0.03f);
+        if(collision.CompareTag("Player"))
+        {
+            Vector2 knockbackDirection = (collision.transform.position - transform.position).normalized;
+            collision.GetComponent<PlayerStat>().TakeDamage(6);
+            collision.GetComponent<PlayerController>().ApplyKnockback(knockbackDirection,6f,0.03f);
+        }  
     }
 }

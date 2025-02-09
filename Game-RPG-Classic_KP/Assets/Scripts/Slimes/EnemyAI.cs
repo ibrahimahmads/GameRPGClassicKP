@@ -67,4 +67,14 @@ public class EnemyAI : MonoBehaviour
         // Dapatkan posisi baru yang acak untuk bergerak
         return new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+        {
+            Vector2 knockbackDirection = (collision.transform.position - transform.position).normalized;
+            collision.GetComponent<PlayerStat>().TakeDamage(6);
+            collision.GetComponent<PlayerController>().ApplyKnockback(knockbackDirection,6f,0.03f);
+        }  
+    }
 }

@@ -64,5 +64,11 @@ public class ItemManager : MonoBehaviour
         potionText.text = potionCount.ToString();
     }
 
+    public void UsePotions(int amount)
+    {
+        potionCount -= amount;
+        potionText.text = potionCount.ToString();
+    }
+
 
 }

@@ -14,20 +14,6 @@ public class SaveManager : Singleton<SaveManager>
     {
         // Tentukan path file data
         filePath = Application.persistentDataPath + "/playerData.json";
-
-        // if (SceneManager.GetActiveScene().name != "Main Menu")
-        // {
-        //     // Hanya muat data jika bukan di Main Menu
-        //     filePath = Application.persistentDataPath + "/playerData.json";
-        //     if (File.Exists(filePath))
-        //     {
-        //         LoadGame();
-        //     }
-        //     else
-        //     {
-        //         InitializeNewGame();
-        //     }
-        // }
     }
 
     // Fungsi untuk menghapus file playerData.json
@@ -87,6 +73,34 @@ public class SaveManager : Singleton<SaveManager>
             positionX = PlayerStat.Instance.transform.position.x,
             positionY = PlayerStat.Instance.transform.position.y,
             lastScene = SceneManager.GetActiveScene().name,
+            spawnTarget = GameManager.Instance.nextSpawnPoint
+            
+        };
+        
+        string json = JsonUtility.ToJson(data); // Mengubah data ke format JSON
+
+        // Simpan file
+        File.WriteAllText(filePath, json);
+        Debug.Log("Data pemain disimpan");
+    }
+
+    public void SavePlayerDataDungeon()
+    {
+        PlayerData data = new PlayerData
+        {
+            level = PlayerStat.Instance.level,
+            hp = PlayerStat.Instance.hp,
+            curHp = PlayerStat.Instance.hp,
+            damage = PlayerStat.Instance.damage,
+            defend  = PlayerStat.Instance.defend,
+            luck  = PlayerStat.Instance.luck,
+            curExp  = PlayerStat.Instance.curExp,
+            maxExp = PlayerStat.Instance.maxExp,
+            coinCount = ItemManager.Instance.CoinCount,
+            potionCount = ItemManager.Instance.PotionCount,
+            positionX = -11.5775f,
+            positionY = 9.664f,
+            lastScene = GameManager.Instance.currentScene,
             spawnTarget = GameManager.Instance.nextSpawnPoint
             
         };
